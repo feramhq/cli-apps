@@ -1,7 +1,10 @@
-var express = require('express'),
-    app = express()
+'use strict';
 
-app.get('/:id', function(request, response){
+var express = require('express'),
+    app     = express()
+
+
+app.get('/:id', function (request, response) {
 	response.send(request.params.id + ' - description')
 })
 
