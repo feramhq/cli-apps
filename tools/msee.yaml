@@ -1,8 +1,19 @@
 links:
   - https://github.com/firede/msee
+
+installations:
+  - npm install --global msee
+  - yarn global add msee
+
 tags:
   - markdown
   - viewer
+
 alternatives:
-  - terminal_markdown_viewer
+  - ansidown
+  - ansimd
+  - mdless
   - mdr
+  - mdv
+  - nd
+  - terminal_markdown_viewer
