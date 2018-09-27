@@ -1,0 +1,47 @@
+state: "draft"
+name: Template
+slug: _template_  # Must match directory name
+description: Just an example app
+description_long:  # Text
+category:  # Text
+website:  # URL
+code:  # URL
+
+license:
+  name:  # Text
+  url:  # URL to license file
+
+price: 2.99  # Without currency
+command: 'example cli command          '
+installation_url:  # URL
+
+installation:
+  homebrew:  # Text (corresponding CLI command)
+  pacman:  # Text (corresponding CLI command)
+  apt:  # Text (corresponding CLI command)
+  dnf:  # Text (corresponding CLI command)
+  layman:  # Text (corresponding CLI command)
+  xbps:  # Text (corresponding CLI command)
+  nix:  # Text (corresponding CLI command)
+  # …
+
+has_free_trail:  # Boolean
+
+developer:
+  name:  # Text
+  website:  # URL
+
+similar:
+  - name:  # Text
+    slug:  # Text
+    description:  # Text
+
+screenshots:
+  - screenshot-todo-1.png
+  - screenshot-todo-2.png
+  - screenshot-todo-3.png
+
+changelog:
+  - version: 0.0.0
+    utc: 2018-01-01
+    changes: Describe the changes in this version
