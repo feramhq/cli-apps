@@ -12,6 +12,7 @@ license:
   url:  # URL to license file
 
 price: 2.99  # Without currency
+paypal_account: # Email address of PayPal account
 command: 'example cli command          '
 installation_url:  # URL
 
@@ -44,4 +45,7 @@ screenshots:
 changelog:
   - version: 0.0.0
     utc: 2018-01-01
-    changes: Describe the changes in this version
+    url: # URL to release notes (optional)
+    changes:
+      - Describe the changes in this version
+      - With 1 change per line

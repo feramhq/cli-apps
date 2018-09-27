@@ -18,6 +18,7 @@ license:
   name: GPL3
   url: https://github.com/simonmichael/hledger/blob/master/LICENSE
 price: 2.99
+paypal_account: simon@joyful.com
 command: 'hledger --file main.journal balance'
 installation_url: http://hledger.org/download.html
 
@@ -40,7 +41,6 @@ similar:
   - name: Transity
     slug: transity
     description: Intuitive plain text accounting tool
-    image: /apps/transity/main.png
 
 screenshots:
   - screenshot-balance.png
