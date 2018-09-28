@@ -22,14 +22,28 @@ paypal_account: simon@joyful.com
 command: 'hledger --file main.journal balance'
 installation_url: http://hledger.org/download.html
 
-installation:
-  homebrew: brew install hledger
-  pacman: pacman -S hledger
-  apt: sudo apt install hledger
-  dnf: sudo dnf install hledger
-  layman: sudo layman -a haskell && sudo emerge hledger
-  xbps: xbps-install -S hledger
-  nix: nix-env -iA nixpkgs.haskellPackages.hledger
+installations:
+  - tool: homebrew
+    command: brew install hledger
+
+  - tool: pacman
+    command: pacman -S hledger
+
+  - tool: apt
+    command: sudo apt install hledger
+
+  - tool: dnf
+    command: sudo dnf install hledger
+
+  - tool: layman
+    command: sudo layman -a haskell && sudo emerge hledger
+
+  - tool: xbps
+    command: xbps-install -S hledger
+
+  - tool: nix
+    command: nix-env -iA nixpkgs.haskellPackages.hledger
+
 
 has_free_trail: true
 

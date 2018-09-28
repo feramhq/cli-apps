@@ -13,18 +13,15 @@ license:
 
 price: 2.99  # Without currency
 paypal_account: # Email address of PayPal account
+bitcoin_address:
 command: 'example cli command          '
-installation_url:  # URL
 
-installation:
-  homebrew:  # Text (corresponding CLI command)
-  pacman:  # Text (corresponding CLI command)
-  apt:  # Text (corresponding CLI command)
-  dnf:  # Text (corresponding CLI command)
-  layman:  # Text (corresponding CLI command)
-  xbps:  # Text (corresponding CLI command)
-  nix:  # Text (corresponding CLI command)
-  # …
+installation_url:  # URL
+installations:
+  - tool: homebrew
+    command: brew install template
+  - tool: apt
+    command: sudo apt install template
 
 has_free_trail:  # Boolean
 

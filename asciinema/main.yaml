@@ -18,20 +18,41 @@ price: 2.99
 paypal_account: donations@asciinema.org
 command: 'asciinema rec demo.cast'
 installation_url: https://asciinema.org/docs/installation
-installation:
-  apt: sudo apt install asciinema
-  dnf: sudo dnf install asciinema
-  docker: |
-    docker run --rm -ti -v "$HOME/.config/asciinema":/root/.config/asciinema
-    asciinema/asciinema
-  emerge: emerge -av asciinema
-  homebrew: brew install asciinema
-  macports: sudo port selfupdate && sudo port install asciinema
-  nix: nix-env -i asciinema
-  pacman: pacman -S asciinema
-  pip3: sudo pip3 install asciinema
-  yum: sudo yum install asciinema
-  zypper: zypper in asciinema
+installations:
+  - tool: apt
+    command: sudo apt install asciinema
+
+  - tool: dnf
+    command: sudo dnf install asciinema
+
+  - tool: docker
+    command: |
+     docker run --rm -ti -v "$HOME/.config/asciinema":/root/.config/asciinema
+     asciinema/asciinema
+
+  - tool: emerge
+    command: emerge -av asciinema
+
+  - tool: homebrew
+    command: brew install asciinema
+
+  - tool: macports
+    command: sudo port selfupdate && sudo port install asciinema
+
+  - tool: nix
+    command: nix-env -i asciinema
+
+  - tool: pacman
+    command: pacman -S asciinema
+
+  - tool: pip
+    command: sudo pip install asciinema
+
+  - tool: yum
+    command: sudo yum install asciinema
+
+  - tool: zypper
+    command: zypper in asciinema
 
 has_free_trail: true
 

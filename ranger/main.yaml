@@ -1,7 +1,100 @@
-state: draft
 name: Ranger
 slug: ranger
 description: File manager with Vi key bindings
-url: http://ranger.github.io
-license: GPL3
-price: Free
+description_long: |
+  Ranger is a console file manager with VI key bindings.
+  It provides a minimalistic and nice curses interface
+  with a view on the directory hierarchy.
+  It ships with rifle, a file launcher that is good at
+  automatically finding out which program to use for what file type.
+category: File-Manager
+website: http://ranger.github.io
+code: https://github.com/ranger/ranger
+license:
+  name: GPLv3
+  url: https://github.com/ranger/ranger/blob/master/LICENSE
+
+price: 2.99
+paypal_account: # TODO
+bitcoin_address: 1NeshVsKwMXa2F87yobBuXFXmi3JKcCamW
+command: 'ranger ~/Documents        '
+
+installation_url: https://github.com/ranger/ranger#installing
+installations:
+  - tool: homebrew
+    command: brew install ranger
+
+has_free_trail: true
+developer:
+  name: Roman Zimbelmann
+  website: http://hut.pm
+
+similar:
+  - name: Nnn
+    slug: nnn
+    description: The fastest terminal file manager ever written
+
+screenshots:
+  - screenshot-overview.png
+
+changelog:
+  - version: 1.9.2
+    utc: 2018-09-09
+    url: https://ranger.github.io/changelog.html
+    changes:
+      - Added a hint_collapse_threshold setting
+      - Added a traverse_backwards command analogous to traverse
+      - Added a command to shift tabs
+      - Added a normal mode mapping to quickly enter the console
+        and scroll through the history C-p
+      - Added a section to scope.sh for image previews of archives
+      - Added an avfs plugin
+      - Added an option to the move command to enable
+        launching the selected file instead of the marked files
+      - Added filtering functionality inspired by
+        dired’s filter stack, .n, .| ...
+      - Added image preview method for Kitty
+      - Added option to disable the display of free space
+        for high latency situations
+      - Added section to scope.sh for pdf previews with mutool
+      - Added several emacs/readline-inspired keybindings, C-g for ESC, alt-f/b
+      - Added systemwide rc.conf and commands.py in /etc/ranger
+      - Added the %any_path macro to allow bookmarks to be used with commands
+        that need a path and are unaware of bookmarks
+      - Added versioning logic to include extra info in unreleased versions
+      - Change tab saving to save all tabs, not just the active tab
+      - Changed draw_borders setting to enable drawing only
+        borders or seperators
+      - Changed behavior of positional arguments to the ranger command,
+        if you specify a path to a file ranger will open with that file selected
+      - Changed the tilde_in_titlebar setting
+        to influence the window titlebar too
+      - Changed the default colorscheme to work properly in terminals
+        that don’t equate bold and bright
+      - Fixed StopIteration errors
+      - Fixed embedded null errors
+      - Fixed issues reported by coverity scan
+      - Fixed running ranger as root on Mac OS
+      - Fixed unicode issue for python2
+      - Fixed w3m preview issues with black stripes
+      - Improved PEP8 adherence
+      - Improved VCS symbols
+      - Improved --cmd functionality
+      - Improved file encoding detection by using chardet if it’s available
+      - Rifle’s flag t should now work with more terminals than xterm and urxvt
+      - Update colorscheme documentation
+
+  - version: 1.9.1
+    utc: 2018-02-22
+    url: https://ranger.github.io/changelog.html
+    changes:
+      - Fixed the rifle config backwards compatibility (regression in 1.9.0)
+      - Fixed the POSIX compatibility of Makefile
+      - Fixed --choosefile, --choosefiles and --choosedir
+        so they work with the process substitution (>(...) in Bash)
+      - Changed the default gt binding to gp due to a conflict
+      - Changed the help message for --choosefile, --choosefiles,
+        and --choosedir to avoid confusion
+      - Changed the behavior of :reset to reload the tags too
+      - Added geeqie to the default rifle.conf
+
