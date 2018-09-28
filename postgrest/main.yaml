@@ -1,11 +1,77 @@
-state: draft
-name: Postgrest
+name: PostgREST
 slug: postgrest
 description: |
   A standalone web server that turns a PostgreSQL database into a RESTful API.
-url: http://postgrest.org
-license: MIT
-price: Free
+description_long: |
+  PostgREST serves a fully RESTful API from any existing PostgreSQL database.
+  It provides a cleaner, more standards-compliant,
+  faster API than you are likely to write from scratch.
+category: REST-Api
+website: http://postgrest.org
+code: https://github.com/PostgREST/postgrest
+license:
+  name: MIT
+  url: https://github.com/PostgREST/postgrest/blob/master/LICENSE
+price: 2.99
 command: 'postgrest production.conf'
+
+installation_url: http://postgrest.org/en/latest/install.html
 installation:
-  homebrew: brew install postgrest
+  - tool: homebrew
+    command: brew install postgrest
+
+  - tool: docker
+    command: docker pull postgrest/postgrest
+
+has_free_trail:  true
+
+developer:
+  name: Joe Nelson
+  website: https://begriffs.com
+
+similar: []
+
+screenshots:
+  - screenshot-help.png
+
+changelog:
+  - version: 5.1.0
+    utc: 2018-08-31
+    url: https://github.com/PostgREST/postgrest/blob/master/CHANGELOG.md#510---2018-08-31
+    changes:
+      - "Added: #1099, Add support for getting json/jsonb by array index -
+        @steve-chavez"
+      - "Added: #1145, Add materialized view columns to OpenAPI output -
+        @steve-chavez"
+      - "Added: #709, Allow embedding on views with subselects/CTE -
+        @steve-chavez"
+      - "Added: #1148, OpenAPI: add required section for the non-nullable
+        columns - @laughedelic"
+      - "Added: #1158, Add summary to OpenAPI doc for RPC functions - @mdr1384"
+
+      - "Fixed: #1113, Fix UPSERT failing when having a camel case PK column -
+        @steve-chavez"
+      - "Fixed: #945, Fix slow start-up time on big schemas - @steve-chavez"
+      - "Fixed: #1129, Fix view embedding when table is capitalized -
+        @steve-chavez"
+      - "Fixed: #1149, OpenAPI: Change GET response type to array -
+        @laughedelic"
+      - "Fixed: #1152, Fix RPC failing when having arguments with reserved or
+        uppercase keywords - @mdr1384"
+      - "Fixed: #905, Fix intermittent empty replies - @steve-chavez"
+      - "Fixed: #1139, Fix JWTIssuedAtFuture failure for valid iat claim -
+        @steve-chavez"
+      - "Fixed: #1141, Fix app.settings resetting on pool timeout -
+        @steve-chavez"
+
+      - "Changed: #1099, Numbers in json path ?select=data->1->>key now get
+        treated as json array indexes instead of keys - @steve-chavez"
+      - "Changed: #1128, Allow finishing a json path with a single arrow ->.
+        Now a json can be obtained without resorting to casting, Previously:
+        /json_arr?select=data->>2::json, now: /json_arr?select=data->2 - @steve-chavez"
+      - "Changed: #724, Change server-host default of *4 to 127.0.0.1"
+      - "Deprecated: #724, SIGHUP deprecated, SIGUSR1 should be used instead"
+
+  - version: 5.0.0
+    utc: 2018-05-14
+
