@@ -1,11 +1,96 @@
-state: draft
-name: Ag
+state: published
+name: The Silver Searcher
 slug: ag
-description: A tool for searching code
-url: https://geoff.greer.fm/ag/
+description: A code-searching tool similar to ack, but faster
+description_long: |
+  The Silver Searcher is a tool for searching code.
+  It started off as a clone of Ack,
+  but their feature sets have since diverged slightly.
+  In typical usage, Ag is 5-10x faster than Ack.
+tags: [search]
+website: https://geoff.greer.fm/ag/
+code: https://github.com/ggreer/the_silver_searcher
 license:
-price: Free
+  name: Apache-2.0
+  url: https://github.com/ggreer/the_silver_searcher/blob/master/LICENSE
+
+price: 2.99
+paypal_account: ""
 command: "ag '^bi(ke|cycle)$' ~/things"
-installation:
-  macos: brew install the_silver_searcher
-  ubuntu: apt install silversearcher-ag
+
+installation_url: https://github.com/ggreer/the_silver_searcher#installing
+installations:
+  - tool: apt
+    command: apt install silversearcher-ag
+
+  - tool: chocolatey
+    command: choco install ag
+
+  - tool: dnf
+    command: dnf install the_silver_searcher
+
+  - tool: emerge
+    command: emerge -a sys-apps/the_silver_searcher
+
+  - tool: homebrew
+    command: brew install the_silver_searcher
+
+  - tool: macport
+    command: port install the_silver_searcher
+
+  - tool: pacman
+    command: pacman -S the_silver_searcher
+
+  - tool: pkg
+    command: pkg install the_silver_searcher
+
+  - tool: sbopkg
+    command: sbopkg -i the_silver_searcher
+
+  - tool: yum
+    command: yum install the_silver_searcher
+
+  - tool: zypper
+    command: zypper install the_silver_searcher
+
+has_free_trail: true
+license_terms: ""
+
+developer:
+  name: Geoff Greer
+  website: https://geoff.greer.fm
+
+similar:
+  - name: Ack
+    url: https://beyondgrep.com/
+    description: A search tool like grep, optimized for programmers
+
+  - name: Ripgrep
+    url: https://github.com/BurntSushi/ripgrep
+    description: Recursively search directories for a regex pattern
+
+screenshots:
+  - screenshot-search.png
+
+changelog_url: https://github.com/ggreer/the_silver_searcher/releases
+changelog:
+  - version: 2.2.0
+    utc: 2018-08-07
+    changes: []
+
+  - version: 2.1.0
+    utc: 2017-08-25
+    changes: []
+
+  - version: 2.0.0
+    utc: 2017-06-04
+    changes:
+      - Removal of .agignore (in favor of .ignore)
+
+  - version: 1.0.3
+    utc: 2017-05-03
+    changes: []
+
+  - version: 1.0.2
+    utc: 2016-12-03
+    changes: []
