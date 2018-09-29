@@ -1,3 +1,4 @@
+state: published
 name: PostgREST
 slug: postgrest
 description: |
@@ -6,17 +7,20 @@ description_long: |
   PostgREST serves a fully RESTful API from any existing PostgreSQL database.
   It provides a cleaner, more standards-compliant,
   faster API than you are likely to write from scratch.
-category: REST-Api
+tags:
+  - rest
+  - api
 website: http://postgrest.org
 code: https://github.com/PostgREST/postgrest
 license:
   name: MIT
   url: https://github.com/PostgREST/postgrest/blob/master/LICENSE
 price: 2.99
+paypal_account: ""
 command: 'postgrest production.conf'
 
 installation_url: http://postgrest.org/en/latest/install.html
-installation:
+installations:
   - tool: homebrew
     command: brew install postgrest
 
@@ -24,6 +28,7 @@ installation:
     command: docker pull postgrest/postgrest
 
 has_free_trail:  true
+license_terms: ""
 
 developer:
   name: Joe Nelson
@@ -74,4 +79,5 @@ changelog:
 
   - version: 5.0.0
     utc: 2018-05-14
+    changes: []
 

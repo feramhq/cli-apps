@@ -1,3 +1,4 @@
+state: published
 name: Asciinema
 slug: asciinema
 description: Record and share your terminal sessions
@@ -8,7 +9,9 @@ description_long: |
   Forget screen recording apps and blurry video.
   Enjoy a lightweight, purely text-based approach to terminal recording.
 
-category: Screen-Recording
+tags:
+  - screen
+  - recording
 website: https://asciinema.org
 code: https://github.com/asciinema/asciinema
 license:
@@ -55,10 +58,13 @@ installations:
     command: zypper in asciinema
 
 has_free_trail: true
+license_terms: ""
 
 developer:
   name: Asciinema
   website: https://asciinema.org
+
+similar: []
 
 screenshots:
   - screenshot-overview.png

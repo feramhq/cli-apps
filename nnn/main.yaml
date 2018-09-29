@@ -9,18 +9,26 @@ price: Free
 command: 'nnn ~/Documents     '
 similar:
   - ranger
-installation:
-  auR: yaourt -S nnn
-  debian: apt-get install nnn
-  fedora: dnf install nnn
-  freeBSD: pkg install nnn
-  gentoo: emerge nnn
-  homebrew: brew install nnn
-  nixOS: nix-env -i nnn
-  openBSD: pkg_add nnn
-  openSUSE: zypper in nnn
-  slackware: slackpkg install nnn
-  source-mage: (cast nnn)
-  ubuntu: apt-get install nnn
-  ubuntu: PPA (apt-get install nnn)
-  void-linux: (xbps-install -S nnn)
+installations:
+  - tool: yaourt
+    command: yaourt -S nnn
+  - tool: apt
+    command: apt install nnn
+  - tool: dnf
+    command: dnf install nnn
+  - tool: pkg
+    command: pkg install nnn
+  - tool: emerge
+    command: emerge nnn
+  - tool: homebrew
+    command: brew install nnn
+  - tool: nix
+    command: nix-env -i nnn
+  - tool: zypper
+    command: zypper in nnn
+  - tool: slackpkg
+    command: slackpkg install nnn
+  - tool: xbps
+    command: xbps-install -S nnn
+
+license_terms: ""

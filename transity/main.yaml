@@ -1,3 +1,4 @@
+state: published
 name: Transity
 slug: transity
 description: Intuitive plain text accounting tool
@@ -11,7 +12,9 @@ description_long: |
   and can therefore easily be processed by 3rd party tools.
   Also, it's written in PureScript.
 
-category: Finance
+tags:
+  - finance
+  - accounting
 
 website: https://github.com/feramhq/transity
 code: https://github.com/feramhq/transity
@@ -19,6 +22,7 @@ license:
   name: ISC
   url: https://github.com/feramhq/transity/blob/master/LICENSE
 price: 2.99
+paypal_account: adrian@feram.io
 command: 'transity balance journal.yaml'
 installation_url: https://github.com/feramhq/transity#installation
 installations:
@@ -41,6 +45,7 @@ developer:
 
 similar:
   - name: Hledger
+    slug: hledger
     description: Lightweight, portable, and dependable accounting tools
     image: /apps/hledger/main.png
 

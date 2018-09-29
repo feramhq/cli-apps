@@ -1,3 +1,4 @@
+state: published
 name: Hledger
 slug: hledger
 description: Lightweight, portable, and dependable accounting tools
@@ -10,7 +11,9 @@ description_long: |
   terminal or web browser, hledger is a fast, secure, dependable
   alternative to spreadsheets, Quickbooks, GnuCash, Xero etc.
 
-category: Finance
+tags:
+  - finance
+  - accounting
 
 website: http://hledger.org
 code: https://github.com/simonmichael/hledger
@@ -46,6 +49,7 @@ installations:
 
 
 has_free_trail: true
+license_terms: ""
 
 developer:
   name: Simon Michael
@@ -115,8 +119,10 @@ changelog:
   - version: "1.9"
     utc: 2018-03-31
     url: http://hledger.org/release-notes.html#hledger-1.9
+    changes: []
 
   - version: "1.5"
     utc: 2017-12-31
     url: http://hledger.org/release-notes.html#hledger-1.5
+    changes: []
 

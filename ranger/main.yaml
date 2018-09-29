@@ -1,3 +1,4 @@
+state: published
 name: Ranger
 slug: ranger
 description: File manager with Vi key bindings
@@ -7,7 +8,9 @@ description_long: |
   with a view on the directory hierarchy.
   It ships with rifle, a file launcher that is good at
   automatically finding out which program to use for what file type.
-category: File-Manager
+tags:
+  - file
+  - manager
 website: http://ranger.github.io
 code: https://github.com/ranger/ranger
 license:
@@ -25,6 +28,8 @@ installations:
     command: brew install ranger
 
 has_free_trail: true
+license_terms: ""
+
 developer:
   name: Roman Zimbelmann
   website: http://hut.pm

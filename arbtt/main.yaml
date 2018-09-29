@@ -13,7 +13,9 @@ description_long: |
   or what projects are your largest time wasters.
   The mapping from the raw window titles to sensible "tags"
   is done by a configuration file with an powerful syntax.
-category: Time-Tracking
+tags:
+  - time
+  - tracking
 website: http://arbtt.nomeata.de
 code: https://github.com/nomeata/arbtt
 
