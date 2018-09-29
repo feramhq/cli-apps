@@ -45,6 +45,7 @@ similar:
 screenshots:
   - screenshot-serve.png
 
+changelog_url: https://github.com/tdammers/sprinkles/releases
 changelog:
   - version: 0.5.0.0
     utc: 2018-02-06

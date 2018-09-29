@@ -63,6 +63,7 @@ similar:
 screenshots:
   - screenshot-balance.png
 
+changelog_url: http://hledger.org/release-notes.html
 changelog:
   - version: "1.10"
     utc: 2018-06-30

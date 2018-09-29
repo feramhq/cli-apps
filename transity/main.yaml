@@ -54,6 +54,7 @@ screenshots:
   - screenshot-transfers.svg
   - screenshot-plot.png
 
+changelog_url: https://github.com/feramhq/transity/releases
 changelog:
   - version: "0.3.0"
     utc: 2018-09-10

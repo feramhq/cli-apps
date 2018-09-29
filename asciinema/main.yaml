@@ -69,6 +69,7 @@ similar: []
 screenshots:
   - screenshot-overview.png
 
+changelog_url: https://github.com/asciinema/asciinema/blob/develop/CHANGELOG.md
 changelog:
   - version: 2.0.1
     utc: 2018-04-04

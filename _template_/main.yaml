@@ -40,10 +40,11 @@ screenshots:
   - screenshot-todo-2.png
   - screenshot-todo-3.png
 
+changelog_url: "" # URL
 changelog:
   - version: 0.0.0
     utc: 2018-01-01
-    url: # URL to release notes (optional)
+    url: ""  # URL to release notes (optional)
     changes:
       - Describe the changes in this version
       - With 1 change per line

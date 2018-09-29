@@ -39,6 +39,7 @@ similar: []
 screenshots:
   - screenshot-help.png
 
+changelog_url: https://github.com/PostgREST/postgrest/blob/master/CHANGELOG.md
 changelog:
   - version: 5.1.0
     utc: 2018-08-31

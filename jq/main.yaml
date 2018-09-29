@@ -58,6 +58,7 @@ similar: []
 screenshots:
   - screenshot-commits.png
 
+changelog_url: https://github.com/stedolan/jq/releases
 changelog:
   - version: "1.5"
     utc: 2015-08-15

@@ -42,6 +42,7 @@ similar:
 screenshots:
   - screenshot-overview.png
 
+changelog_url: https://ranger.github.io/changelog.html
 changelog:
   - version: 1.9.2
     utc: 2018-09-09
