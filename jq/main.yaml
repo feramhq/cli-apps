@@ -1,14 +1,165 @@
-state: draft
+state: published
 name: Jq
 slug: jq
 description: Command line JSON processor
-url: https://stedolan.github.io/jq/
+description_long: |
+  jq is like sed for JSON data - you can use it to slice and filter
+  and map and transform structured data with the same ease that sed,
+  awk, grep and friends let you play with text.
+
+  jq is written in portable C, and it has zero runtime dependencies.
+  You can download a single binary,
+  scp it to a far away machine of the same type, and expect it to work.
+
+  jq can mangle the data format that you have into the one that you want
+  with very little effort, and the program to do so is often shorter
+  and simpler than you’d expect.
+tags: [json]
+website: https://stedolan.github.io/jq/
 code: https://github.com/stedolan/jq
-license: MIT
-price: Free
-command: 'jq .name package.json'
-installation:
-  guide: https://stedolan.github.io/jq/download
-  homebrew: brew install jq
-  apt: sudo apt install jq
-  chocolatey: chocolatey install jq
+license:
+  name: Misc
+  url: https://github.com/stedolan/jq/blob/master/COPYING
+price: 2.99
+paypal_account: ""
+command: 'jq .name package.json     '
+installation_url: https://stedolan.github.io/jq/download/
+installations:
+  - tool: apt
+    command: sudo apt install jq
+
+  - tool: chocolatey
+    command: chocolatey install jq
+
+  - tool: dnf
+    command: sudo dnf install jq
+
+  - tool: homebrew
+    command: brew install jq
+
+  - tool: pacman
+    command: sudo pacman -Sy jq
+
+  - tool: pkg
+    command: pkg install jq
+
+  - tool: zypper
+    command: sudo zypper install jq
+
+has_free_trail: true
+license_terms: ""
+
+developer:
+  name: Stephen Dolan
+  website: http://stedolan.net/
+
+similar: []
+
+screenshots:
+  - screenshot-commits.png
+
+changelog:
+  - version: "1.5"
+    utc: 2015-08-15
+    url: https://github.com/stedolan/jq/releases/tag/jq-1.5
+    description: |
+      - regexp support (using Oniguruma)!
+      - a proper module system
+        `import "foo/bar" as bar;`
+        import foo/bar.jq's defs into a bar::* namespace
+        and
+        `include "foo/bar";`
+        import foo/bar.jq's defs into the top-level
+      - destructuring syntax (. as [$first, $second, {$foo, $bar}] | ...)
+      - math functions
+      - an online streaming parser
+      - "minimal I/O builtions (inputs, debug)
+        One can now write: jq -n 'reduce inputs as $i ( ... )'
+        to reduce inputs in an online way without having to slurp them first!
+        This works with streaming too."
+      - try/catch, for catching and handling errors
+        (this makes for a dynamic non-local exit system)
+      - a lexical non-local exit system
+        One can now say `label $foo | ..... | break $foo`
+        where the break causes control to return to the label $foo, which
+        then produces empty (backtracks).
+        There's named and anonymous labels.
+      - tail call optimization (TCO), which allows efficient recursion in jq
+      - a variety of new control structure builtins (e.g., while(cond; exp),
+        repeat(exp), until(cond; next)), many of which internally use TCO
+      - "an enhanced form of reduce:
+        foreach exp as $name (init_exp; update_exp; extract_exp)"
+      - the ability to read module data files
+      - import "foo/bar" as $bar; # read foo/bar.json, bind to $bar::bar
+      - --argjson var '<JSON text>'
+      - Using --arg var bit me too many times :)
+      - --slurpfile var "filename"
+      - Replaces the --argfile form
+        (which is now deprecated but remains for backward compatibility).
+      - support for application/json-seq (RFC7464)
+      - a large variety of new utility functions,
+        many being community contributions
+        (e.g., bsearch, for binary searching arrays)
+      - datetime functions
+      - a variety of performance enhancements
+      - "`def($a): ...;` is now allowed as an equivalent of
+        `def(a): a as $a | ...;`"
+      - test and build improvements, including gcov support
+
+  - version: "1.4"
+    utc: 2014-06-09
+    url: https://github.com/stedolan/jq/releases/tag/jq-1.3
+    description: |
+      - Command-line arguments:
+        - jq --arg-file variable file
+        - jq --unbuffered
+        - jq -e / --exit-status (set exit status based on outputs)
+        - jq -S / --sort-keys (now jq no longer sorts object keys by
+          default
+      - Syntax:
+        - .. -> like // in XPath (recursive traversal)
+        - question mark (e.g., .a?) to suppress errors
+        - ."foo" syntax (equivalent to .["foo"])
+        - better error handling for .foo
+        - added % operator (modulo)
+        - allow negation without requiring extra parenthesis
+        - more function arguments (up to six)
+      - Filters:
+        - any, all
+        - iterables, arrays, objects, scalars, nulls, booleans, numbers,
+          strings, values
+      - String built-ins:
+        - split
+        - join (join an array of strings with a given separator string)
+        - ltrimstr, rtrimstr
+        - startswith, endswith
+        - explode, implode
+        - fromjson, tojson
+        - index, rindex, indices
+      - Math functions:
+        - floor, sqrt, cbrt, etetera (depends on what's available from libm)
+      - Libjq:
+        A C API interface to jq's JSON representation and for
+        running jq programs from C applications
+
+  - version: "1.3"
+    utc: 2013-05-19
+    url: https://github.com/stedolan/jq/releases/tag/jq-1.3
+    changes: []
+
+  - version: "1.2"
+    utc: 2012-12-20
+    url: https://github.com/stedolan/jq/releases/tag/jq-1.3
+    changes: []
+
+  - version: "1.1"
+    utc: 2012-10-21
+    url: https://github.com/stedolan/jq/releases/tag/jq-1.3
+    changes: []
+
+  - version: "1.0"
+    utc: 2012-10-21
+    url: https://github.com/stedolan/jq/releases/tag/jq-1.3
+    changes: []
+
+
