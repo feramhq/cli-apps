@@ -1,13 +1,86 @@
-state: draft
+state: published
 name: Youtube Dl
 slug: youtube-dl
 description: Download videos from YouTube and other video sites
-url: http://rg3.github.io/youtube-dl/
+description_long: |
+  Youtube-dl is a command-line program to download videos from YouTube.com
+  and a few more sites.
+  It requires the Python interpreter (2.6, 2.7, or 3.2+),
+  and it is not platform specific.
+  We also provide a Windows executable that includes Python.
+  youtube-dl should work in your Unix box, in Windows or in Mac OS X.
+  It is released to the public domain, which means you can modify it,
+  redistribute it or use it however you like.
+tags: [video, youtube, download]
+website: http://rg3.github.io/youtube-dl/
 code: https://github.com/rg3/youtube-dl/
-license: Unlicense
-price: Free
+license:
+  name: Unlicense
+  url: https://github.com/rg3/youtube-dl/blob/master/LICENSE
+price: 2.99
+paypal_account: QC9DQRCVET9NQ
+bitcoin_address: 17EEDY6MuqLQ3jrTeyYaaUXbc6dFaZEYw7
+
 command: 'youtube-dl youtu.be/oHg5SJYRHA0'
-installation:
-  homebrew: brew install youtube-dl
-  macports: sudo port install youtube-dl
-  pip: pip install youtube-dl
+
+installation_url: https://github.com/rg3/youtube-dl#installation
+installations:
+  - tool: homebrew
+    command: brew install youtube-dl
+  - tool: macports
+    command: sudo port install youtube-dl
+  - tool: pip
+    command: pip install youtube-dl
+
+has_free_trail: true
+license_terms: ""
+
+developer:
+  name: Ricardo Garcia
+  website: https://rg3.name/
+
+similar: []
+
+screenshots:
+  - screenshot-video.png
+
+changelog_url: https://github.com/rg3/youtube-dl/blob/master/ChangeLog
+changelog:
+  - version: 2018.09.26
+    utc: 2018-09-26
+    description: |
+      Extractors
+
+      - * [pluralsight] Fix subtitles extraction (#17671)
+      - * [mediaset] Improve embed support (#17668)
+      - + [youtube] Add support for invidio.us (#17613)
+      - + [zattoo] Add support for more zattoo platform sites
+      - * [zattoo] Fix extraction (#17175, #17542)
+
+  - version: 2018.09.18
+    utc: 2018-09-18
+    description: |
+      Core
+
+      - + [extractor/common] Introduce channel meta fields
+
+      Extractors
+
+      - * [adobepass] Don't pollute default headers dict
+      - * [udemy] Don't pollute default headers dict
+      - * [twitch] Don't pollute default headers dict
+      - * [youtube] Don't pollute default query dict (#17593)
+      - * [crunchyroll] Prefer hardsubless formats
+        and formats in locale language
+      - * [vrv] Make format ids deterministic
+      - * [vimeo] Fix ondemand playlist extraction (#14591)
+      - + [pornhub] Extract upload date (#17574)
+      - + [porntube] Extract channel meta fields
+      - + [vimeo] Extract channel meta fields
+      - + [youtube] Extract channel meta fields (#9676, #12939)
+      - * [porntube] Fix extraction (#17541)
+      - * [asiancrush] Fix extraction (#15630)
+      - + [twitch:clips] Extend URL regular expression (closes #17559)
+      - + [vzaar] Add support for HLS
+      - * [tube8] Fix metadata extraction (#17520)
+      - * [eporner] Extract JSON-LD (#17519)
