@@ -1,0 +1,89 @@
+state: published
+name: The Fuck
+slug: thefuck
+description: |
+  Magnificent app which corrects your previous console command
+description_long: |
+  The Fuck attempts to match the previous command with a rule.
+  If a match is found,
+  a new command is created using the matched rule and executed.
+tags: [correction, python]
+website: https://github.com/nvbn/thefuck
+code: https://github.com/nvbn/thefuck
+
+license:
+  name: MIT
+  url: https://github.com/nvbn/thefuck/blob/master/LICENSE.md
+
+price: 1.99
+paypal_account: ""
+command: 'fuck                            '
+
+installation_url: https://github.com/nvbn/thefuck#installation
+installations:
+  - tool: chromebrew
+    command: crew install thefuck
+
+  - tool: emerge
+    command: sudo emerge --ask app-shells/thefuck
+
+  - tool: homebrew
+    command: brew install thefuck
+
+  - tool: pacman
+    command: sudo pacman -S thefuck
+
+  - tool: pip
+    command: pip install thefuck
+
+  - tool: xbps
+    command: sudo xbps-install thefuck
+
+has_free_trail: true
+license_terms: ""
+
+developer:
+  name: Vladimir Iakovlev
+  website: https://nvbn.github.io/
+
+similar: []
+
+screenshots:
+  - screenshot_main.gif
+  - screenshot_instant_mode.gif
+
+changelog_url: https://github.com/nvbn/thefuck/releases
+changelog:
+  - version: "3.27"
+    utc: 2018-05-22
+    url: https://github.com/nvbn/thefuck/releases/tag/3.27
+    changes:
+      - Initial zsh-only shell_logger support
+      - Fixed Fish shell support (#807)
+      - Fixed PowerShell coloring (#772)
+      - New brew_reinstall rule (#816)
+      - New long_form_help rule (#810)
+
+  - version: "3.26"
+    utc: 2018-04-25
+    url: https://github.com/nvbn/thefuck/releases/tag/3.26
+    changes:
+      - Ubuntu 18.04 support (#786)
+      - Improved fish alias (#727)
+      - New unsudo rule (#787)
+      - New git_merge_unrelated rule (#773)
+      - New git_commit_amend rule (#664)
+      - New adb_unknown_command rule (#765)
+      - New apt_upgrade rule (#761)
+      - New git_merge rule (#629)
+      - Improved cd_mkdir rule (#784)
+      - Improved cd_correction rule (#784)
+      - Improved switch_lang rule (#776)
+      - Improved git_branch_exists rule (#762)
+      - Improved git_push rule (#740)
+      - Improved git_checkout rule (#632)
+      - No longer rely on $SHELL for detecting shell (#783)
+
+
+
+
