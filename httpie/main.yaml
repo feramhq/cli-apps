@@ -1,0 +1,111 @@
+state: published
+name: HTTPie
+slug: httpie
+description: |
+  HTTP client with an intuitive UI, JSON support,
+  syntax highlighting, and more
+description_long: |
+  HTTPie consists of a single http command
+  designed for painless debugging
+  and interaction with HTTP servers, RESTful APIs, and web services:
+
+  - Sensible defaults
+  - Expressive and intuitive command syntax
+  - Colorized and formatted terminal output
+  - Built-in JSON support
+  - Persistent sessions
+  - Forms and file uploads
+  - HTTPS, proxies, and authentication support
+  - Support for arbitrary request data and headers
+  - Wget-like downloads
+  - Extensions
+  - Linux, macOS, and Windows support
+
+tags: [http, rest, client, json]
+website: https://httpie.org/
+code: https://github.com/jakubroztocil/httpie
+
+license:
+  name: BSD-3-Clause
+  url: https://github.com/jakubroztocil/httpie/blob/master/LICENSE
+
+price: 2.99  # Without currency
+paypal_account: ""
+command: 'http PUT httpbin.org/put hello=world'
+
+installation_url: https://github.com/jakubroztocil/httpie#installation
+installations:
+  - tool: apt
+    command: apt install httpie
+
+  - tool: dnf
+    command: dnf install httpie
+
+  - tool: homebrew
+    command: brew install httpie
+
+  - tool: macport
+    command: port install httpie
+
+  - tool: pacman
+    command:  -S httpie
+
+  - tool: pip
+    command:  install --upgrade httpie
+
+  - tool: yum
+    command: yum install httpie
+
+has_free_trail: true
+license_terms: ""
+
+developer:
+  name: Jakub Roztočil
+  website: https://twitter.com/jakubroztocil
+
+similar:
+  - name: curl
+    url: https://curl.haxx.se/
+    description: Tool and library for transferring data with URLs
+
+screenshots:
+  - screenshot_put.png
+
+changelog_url: https://github.com/jakubroztocil/httpie/blob/master/CHANGELOG.rst
+changelog:
+  - version: 0.9.9
+    utc: 2016-12-08
+    changes:
+      - Fixed README
+
+  - version: 0.9.8
+    utc: 2016-12-08
+    changes:
+      - Extended auth plugin API
+      - Added exit status code 7 for plugin errors
+      - Added support for curses-less Python installations
+      - Fixed REQUEST_ITEM arg incorrectly being reported as required
+      - Improved CTRL-C interrupt handling
+      - Added the standard exit status code 130 for keyboard interrupts
+
+  - version: 0.9.6
+    utc: 2016-08-13
+    changes:
+      - Added Python 3 as a dependency for Homebrew installations to ensure some
+        of the newer HTTP features work out of the box for macOS users
+        (starting with HTTPie 0.9.4.).
+      - Added the ability to unset a request header with Header:,
+        and send an empty value with Header;.
+      - Added --default-scheme <URL_SCHEME> to enable things like
+        $ alias https='http --default-scheme=https.
+      - Added -I as a shortcut for --ignore-stdin.
+      - Added fish shell completion
+        (located in extras/httpie-completion.fish in the Github repo).
+      - Updated requests to 2.10.0 so that SOCKS support can be added via pip
+        in stall requests[socks].
+      - Changed the default JSON Accept header from application/json
+        to application/json, */*.
+      - Changed the pre-processing of request HTTP headers
+        so that any leading and trailing whitespace is removed.
+
+
