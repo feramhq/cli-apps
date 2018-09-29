@@ -44,7 +44,7 @@ installations:
   - tool: homebrew
     command: brew install httpie
 
-  - tool: macport
+  - tool: macports
     command: port install httpie
 
   - tool: pacman

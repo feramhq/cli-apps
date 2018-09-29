@@ -35,7 +35,7 @@ installations:
   - tool: homebrew
     command: brew install the_silver_searcher
 
-  - tool: macport
+  - tool: macports
     command: port install the_silver_searcher
 
   - tool: pacman
