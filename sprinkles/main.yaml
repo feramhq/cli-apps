@@ -1,0 +1,92 @@
+state: published
+name: Sprinkles
+slug: sprinkles
+description: Web development without programming
+description_long: |
+  Sprinkles is a tool that provides HTML front-ends to diverse data backends,
+  based on a YAML configuration file,
+  and a collection of templates and static files.
+
+  With sprinkles, you can turn a basic JSON API, or a collection of Markdown,
+  YAML and JSON files, into a full-blown content-driven website.
+  Sprinkles can act as a UI layer for a complex web service,
+  or as a front-end for a poor man's CMS,
+  or as a drop-in replacement for a static site generator.
+
+tags: [cms, web, html, frontend]
+website: https://sprinkles.tobiasdammers.nl/
+code: https://github.com/tdammers/sprinkles
+
+license:
+  name: BSD3
+  url: https://github.com/tdammers/sprinkles/blob/master/LICENSE
+
+price: 2.99
+paypal_account: ""
+command: 'sprinkles -serve 5000        '
+
+installation_url: https://github.com/tdammers/sprinkles#installing
+installations:
+  - tool: stack
+    command: stack install sprinkles
+
+has_free_trail: true
+license_terms: ""
+
+developer:
+  name: Tobias Dammers
+  website: https://tobiasdammers.nl
+
+similar:
+  - name: Pandoc
+    slug: pandoc
+    description: A universal document converter
+
+screenshots:
+  - screenshot-serve.png
+
+changelog:
+  - version: 0.5.0.0
+    utc: 2018-02-06
+    url: https://github.com/tdammers/sprinkles/releases/tag/0.5.0.0
+    changes:
+      - Serve multiple sites at once on separate ports
+      - Make all paths absolute (based on project-relative paths)
+
+  - version: 0.4.3.0
+    utc: 2017-06-26
+    url: https://github.com/tdammers/sprinkles/blob/master/CHANGELOG.md#0430
+    changes:
+      - Nicer YAML syntax for SQL backend.
+
+  - version: 0.4.2.0
+    utc: 2017-06-26
+    url: https://github.com/tdammers/sprinkles/blob/master/CHANGELOG.md#0420
+    changes:
+      - Handle SQL NULL more leniently in the SQL backend;
+        NULL values in the result
+        set are now passed to Ginger as null, rather than failing.
+      - "Multi-query SQL backend: the SQL backend now accepts an alternative
+        spec syntax. Instead of `query` and `params`,
+        it can now also take just one `queries` key,
+        containing a list of query string + params array pairs.
+        Queries are executed against the params they come with, in order,
+        and all the queries in the backend are run within the same transaction."
+      - Turned on partial pattern match warnings, and fixed them all.
+      - Added a missing template in an example project
+      - Expose backend data in templated rule specs.
+        This means that it is now
+        possible to change, for example, the selected template, or the redirect
+        target, based on backend data.
+
+  - version: 0.4.1.2
+    utc: 2017-06-21
+    url: https://github.com/tdammers/sprinkles/blob/master/CHANGELOG.md#0420
+    changes:
+      - Serve html as utf-8 on apache for baked site
+      - "Bugfix: Put baked .htaccess in the correct directory"
+
+
+
+
+
