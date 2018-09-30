@@ -15,7 +15,7 @@ license:
   url: https://github.com/ggreer/the_silver_searcher/blob/master/LICENSE
 
 price: 2.99
-paypal_account: ""
+accounts: []
 command: "ag '^bi(ke|cycle)$' ~/things"
 
 installation_url: https://github.com/ggreer/the_silver_searcher#installing

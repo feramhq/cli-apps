@@ -18,7 +18,9 @@ license:
   name: GPL3
   url: https://github.com/asciinema/asciinema/blob/develop/LICENSE
 price: 2.99
-paypal_account: donations@asciinema.org
+accounts:
+  - name: paypal
+    address: donations@asciinema.org
 command: 'asciinema rec demo.cast'
 installation_url: https://asciinema.org/docs/installation
 installations:

@@ -30,7 +30,7 @@ license:
   url: https://github.com/jakubroztocil/httpie/blob/master/LICENSE
 
 price: 2.99  # Without currency
-paypal_account: ""
+accounts: []
 command: 'http PUT httpbin.org/put hello=world'
 
 installation_url: https://github.com/jakubroztocil/httpie#installation

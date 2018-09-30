@@ -18,8 +18,9 @@ license:
   url: https://github.com/ranger/ranger/blob/master/LICENSE
 
 price: 2.99
-paypal_account: # TODO
-bitcoin_address: 1NeshVsKwMXa2F87yobBuXFXmi3JKcCamW
+accounts:
+  - name: bitcoin
+    address: 1NeshVsKwMXa2F87yobBuXFXmi3JKcCamW
 command: 'ranger ~/Documents        '
 
 installation_url: https://github.com/ranger/ranger#installing

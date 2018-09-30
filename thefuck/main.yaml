@@ -16,7 +16,7 @@ license:
   url: https://github.com/nvbn/thefuck/blob/master/LICENSE.md
 
 price: 1.99
-paypal_account: ""
+accounts: []
 command: 'fuck                            '
 
 installation_url: https://github.com/nvbn/thefuck#installation

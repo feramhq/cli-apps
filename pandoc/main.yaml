@@ -137,7 +137,9 @@ license:
   name: Misc
   url: https://github.com/jgm/pandoc/blob/master/COPYRIGHT
 price: 2.99
-paypal_account: jgm@berkeley.edu
+accounts:
+  - name: paypal
+    address: jgm@berkeley.edu
 command: 'pandoc readme.md --output readme.pdf'
 installation_url: https://github.com/jgm/pandoc/blob/master/INSTALL.md
 installations:

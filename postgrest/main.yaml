@@ -16,7 +16,7 @@ license:
   name: MIT
   url: https://github.com/PostgREST/postgrest/blob/master/LICENSE
 price: 2.99
-paypal_account: ""
+accounts: []
 command: 'postgrest production.conf'
 
 installation_url: http://postgrest.org/en/latest/install.html

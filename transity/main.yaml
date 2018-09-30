@@ -22,7 +22,9 @@ license:
   name: ISC
   url: https://github.com/feramhq/transity/blob/master/LICENSE
 price: 2.99
-paypal_account: adrian@feram.io
+accounts:
+  - name: paypal
+    address: adrian@feram.io
 command: 'transity balance journal.yaml'
 installation_url: https://github.com/feramhq/transity#installation
 installations:

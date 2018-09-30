@@ -22,7 +22,7 @@ license:
   url: https://github.com/tdammers/sprinkles/blob/master/LICENSE
 
 price: 2.99
-paypal_account: ""
+accounts: []
 command: 'sprinkles -serve 5000        '
 
 installation_url: https://github.com/tdammers/sprinkles#installing

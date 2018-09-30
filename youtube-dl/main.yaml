@@ -18,8 +18,11 @@ license:
   name: Unlicense
   url: https://github.com/rg3/youtube-dl/blob/master/LICENSE
 price: 2.99
-paypal_account: QC9DQRCVET9NQ
-bitcoin_address: 17EEDY6MuqLQ3jrTeyYaaUXbc6dFaZEYw7
+accounts:
+  - name: paypal
+    address: QC9DQRCVET9NQ
+  - name: bitcoin
+    address: 17EEDY6MuqLQ3jrTeyYaaUXbc6dFaZEYw7
 
 command: 'youtube-dl youtu.be/oHg5SJYRHA0'
 
