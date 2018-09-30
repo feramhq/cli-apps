@@ -1,0 +1,212 @@
+state: published
+name: Neovim
+slug: neovim
+description: Vim-fork focused on extensibility and usability
+description_long: |
+  Neovim is a project that seeks to aggressively refactor Vim in order to:
+
+  - Simplify maintenance and encourage contributions
+  - Split the work between multiple developers
+  - Enable advanced UIs without modifications to the core
+  - Maximize extensibility
+
+  Features:
+
+  - Modern GUIs
+  - API access from any language including clojure, lisp,
+    go, haskell, lua, javascript, perl, python, ruby, rust.
+  - Embedded, scriptable terminal emulator
+  - Asynchronous job control
+  - Shared data (shada) among multiple editor instances
+  - XDG base directories support
+  - Compatible with most Vim plugins, including Ruby and Python plugins.
+
+tags: [editor, vim]
+website: https://neovim.io/
+code: https://github.com/neovim/neovim
+
+license:
+  name: Misc
+  url: https://github.com/neovim/neovim/blob/master/LICENSE
+
+price: 2.99
+accounts:
+  - name: bitcoin
+    address: 1Evu6wPrzjsjrNPdCYbHy3HT6ry2EzXFyQ
+
+  - name: bountysource
+    address: https://salt.bountysource.com/teams/neovim
+
+command: 'nvim ~/Projects/cliappstore    '
+
+installation_url: https://github.com/neovim/neovim#install-from-package
+installations:
+  - tool: apt
+    command: sudo apt install neovim
+
+  - tool: homebrew
+    command: brew install neovim
+
+
+has_free_trail: true
+license_terms: ""
+
+developer:
+  name: Neovim Team
+  website: https://neovim.io/
+
+similar:
+  - name: Vim
+    url: https://www.vim.org/
+    description: |
+      Text editor that can be used to edit all kinds of plain text
+
+  - name: Emacs
+    url: https://www.gnu.org/software/emacs/
+    description: An extensible, customizable, free/libre text editor
+
+  - name: Nano
+    url: https://www.nano-editor.org/
+    description: Simple and easy to use text editor
+
+  - name: Micro
+    url: https://micro-editor.github.io/
+    description: A modern and intuitive terminal-based text editor
+
+screenshots:
+  - screenshot_help.png
+
+changelog_url: https://github.com/neovim/neovim/releases
+changelog:
+  - version: 0.3.1
+    utc: 2018-07-19
+    url: https://github.com/neovim/neovim/releases/tag/v0.3.1
+    description: |
+      Features:
+
+      - man.vim: C highlighting for EXAMPLES section
+      - TUI: urxvt: also send xterm focus-reporting seqs
+      - API: emit nvim_buf_lines_event from :terminal
+      - fillchars: Add "eob" flag
+
+      Fixes:
+
+      - startup: avoid blank stdin buffer if other files were opened
+      - Only waitpid() for processes that we care about
+      - Check all child processes for exit in SIGCHLD handler
+      - channel.c: Prevent channel_destroy_early()
+        from freeing uninitialized rpc stuff
+      - transstr_buf: fix length comparison
+      - TUI: Fix standout mode
+      - man.vim: fix for mandoc
+      - provider/node: npm --loglevel silent
+      - API: nvim_win_set_cursor: set curswant
+      - checkhealth: Python: fix VIRTUAL_ENV check
+      - checkhealth: node.js: also search yarn
+
+      Changes:
+
+      - defaults: shortmess+=F
+      - highlight: high-priority CursorLine if fg is set.
+      - terminal: handle &confirm and :confirm on unloading
+      - screen: truncate showmode messages
+      - buffer: fix copying :setlocal options
+      - Ex mode: always "improved" (gQ)
+      - options: remove 'maxcombine` option (always 6)
+
+      Internal:
+
+      - screen: use UTF-8 representation
+
+  - version: 0.3.0
+    utc: 2018-06-11
+    url: https://github.com/neovim/neovim/releases/tag/v0.3.0
+    description: |
+      Features:
+
+      - built-in VimL expression parser
+      - implement key to invoke command in any mode
+      - 'startup: treat stdin as text instead of commands'
+      - :digraphs : highlight with hl-SpecialKey
+      - 'startup: Let -s - read from stdin'
+      - events: VimSuspend, VimResume
+      - 'stdpath()'
+      - server: introduce --listen
+      - insert-mode: interpret unmapped META as ESC
+      - msg: do not scroll entire screen
+      - let negative 'writedelay' show all redraws
+      - win: has("wsl") on Windows Subsystem for Linux
+      - cmdline: CmdlineEnter and CmdlineLeave autocommands
+      - channels: support buffered output and bytes sockets/stdio
+
+      Api:
+
+      - buffer updates
+      - list information about all channels/jobs.
+      - nvim_get_commands
+      - Make nvim_set_option() update :verbose set …
+      - more reliable/descriptive VimL errors
+      - nvim_call_dict_function
+      - nvim_list_uis
+      - forward option updates to UIs
+      - improve nvim_command_output
+
+      Windows:
+
+      - Support MSVC
+      - Fix reading content from stdin
+
+      Tui:
+
+      - add support for mouse release events in urxvt
+      - implement "standout" attribute
+      - support TERM=konsole-256color
+      - report TUI info with -V3 ('verbose' >= 3)
+      - enable focus-reporting
+      - 'term' option: reflect effective terminal behavior
+
+      Fixes:
+
+      - 'job-control: avoid kill-timer race'
+      - 'jobs: separate process-group'
+      - terminal: flush vterm output buffer on pty output
+      - :checkhealth fixes
+      - 'Fix errors reported by PVS'
+      - inccommand: pause :terminal redraws
+      - inccommand: do not execute trailing commands
+      - terminal: resize to the max dimensions
+      - Make vim_fgets() return the same values as in Vim
+      - screen: winhl=Normal:Background should not override syntax
+      - 'shada: Also save numbered marks'
+      - cscope: ignore EINTR while reading the prompt
+      - ':terminal Enter/Leave should not increment jumplist'
+      - TUI: libtermkey: force CSI driver for mouse input
+      - TUI: faster startup
+      - TUI: fix resize-related segfaults
+      - TUI: always hide cursor when flushing,
+        never flush buffers during unibilium output
+      - TUI: disable BCE almost always
+      - mark: Make sure that jumplist item will not have zero lnum
+      - macOS: Set $LANG based on the system locale
+      - 'Retry fgets on EINTR'
+
+      Changes:
+
+      - default to 'nofsync'
+      - defaults: 'fillchars'
+      - defaults: sidescroll=1
+      - defaults: enable cscopeverbose
+      - defaults: do :filetype stuff unless explicitly "off"
+      - 'Apply :lmap in macros'
+      - terminal: Leave 'relativenumber' alone
+      - refactor: Remove maxmem, maxmemtot options
+      - win: defaults: 'shellcmdflag', 'shellxquote'
+      - jobwait(): return -2 on interrupt also with timeout
+      - clipboard: macOS: fallback to tmux if pbcopy is broken
+      - Make 'langnoremap' apply directly after a map
+      - 'lua/executor: Remove lightuserdata'
+
+      Internal:
+
+      - Internal statistics for list impl
+      - Rewrite internal list impl

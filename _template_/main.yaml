@@ -12,17 +12,22 @@ license:
   url: "" # URL to license file
 
 price: 2.99  # Without currency
-paypal_account: ""  # Email address of PayPal account
-bitcoin_address: ""  # Bitcoin address
+
+accounts: # Sorted alphabetically
+  - name: bitcoin
+    address: ""  # Bitcoin address
+  - name: paypal
+    address: ""  # Email address of PayPal account
+
 command: 'example cli command          '
 
 installation_url: ""  # URL to datailed installation instructions
-installations:
-  - tool: homebrew
-    command: brew install template
-
+installations:  # Sorted alphabetically
   - tool: apt
     command: sudo apt install template
+
+  - tool: homebrew
+    command: brew install template
 
 has_free_trail: false # Boolean
 license_terms: ""  # Full explanation of licensing terms
