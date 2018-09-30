@@ -1,9 +1,91 @@
-state: draft
+state: published
 name: TLDR
 slug: tldr
 description: Simplified and community-driven man pages
-url: https://tldr.sh
-license: MIT
-price: Free
+description_long: |
+   The TLDR pages are a community effort
+   to simplify the beloved man pages with practical examples.
+tags: [man, manpage, manual, documentation, example, help]
+website: https://tldr.sh
+code: https://github.com/tldr-pages/tldr
+license:
+  name: MIT
+  url: https://github.com/tldr-pages/tldr/blob/master/LICENSE.md
+price: 2.99
+
+accounts: []
+
 command: 'tldr tar          '
-installation: npm install --global tldr
+
+installation_url: https://tldr.sh/#installation
+installations:
+  - tool: bpkg
+    command: bpkg install pepa65/tldr
+
+  - tool: cargo
+    command: cargo install tealdeer
+
+  - tool: cpanm
+    command: cpanm App::tldr
+
+  - tool: gem
+    command: gem install tldrb
+
+  - tool: go
+    command: go get github.com/anoopengineer/tldr
+
+  - tool: homebrew
+    command: brew install tldr
+
+  - tool: npm
+    command: npm install --global tldr
+
+  - tool: pip
+    command: pip install tldr
+
+  - tool: snap
+    command: sudo snap install tldr
+
+  - tool: stack
+    command: stack install tldr
+
+  - tool: yaourt
+    command: yaourt -S tealdeer
+
+has_free_trail: true
+license_terms: ""
+
+developer:
+  name: Various
+  website: https://github.com/tldr-pages/tldr/blob/master/GOVERNANCE.md
+
+similar:
+  - name: Cheat
+    url: https://github.com/chrisallenlane/cheat
+    description: Create and view interactive cheatsheets
+
+screenshots:
+  - screenshot-tar.png
+
+changelog_url: https://github.com/tldr-pages/tldr-node-client/releases
+changelog:
+  - version: 3.2.5
+    utc: 2018-08-23
+    url: https://github.com/tldr-pages/tldr-node-client/releases/tag/v3.2.5
+    changes:
+      - Using https path for asset download
+      - Fixed UT issue where it would fail if $HOME/.tldrrc was not present.
+
+  - version: 3.2.4
+    utc: 2018-07-24
+    url: https://github.com/tldr-pages/tldr-node-client/releases/tag/v3.2.4
+    changes:
+      - Upgraded natural to remove node-webworkers as a dependency.
+        This was a cause of major install issues.
+
+  - version: 3.2.3
+    utc: 2018-05-08
+    url: https://github.com/tldr-pages/tldr-node-client/releases/tag/v3.2.3
+    changes:
+      - Fixed the crash on using --render option
+
