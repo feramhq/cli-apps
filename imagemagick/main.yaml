@@ -1,0 +1,5 @@
+state: draft
+code: https://github.com/ImageMagick/ImageMagick
+license:
+  name: Misc
+  url: https://github.com/ImageMagick/ImageMagick/blob/master/LICENSE

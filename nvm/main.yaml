@@ -1,0 +1,4 @@
+state: draft
+name: Node Version Manager
+slug: nvm
+code: https://github.com/creationix/nvm
