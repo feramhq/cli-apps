@@ -5,7 +5,7 @@ description: Jump to your most used directories
 url: https://github.com/rupa/z/
 code: https://github.com/rupa/z/
 license: UNLICENSED
-price: Free
+price: 0
 command: 'z Deskt            '
 installation:
   guide: https://github.com/rupa/z/

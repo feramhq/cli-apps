@@ -4,6 +4,6 @@ slug: cheat
 description: Interactive cheatsheets on the command line
 url: https://github.com/chrisallenlane/cheat
 license: MIT
-price: Free
+price: 0
 command: 'cheat tar                 '
 installation: pip install cheat

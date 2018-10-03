@@ -15,7 +15,7 @@ license:
   name: MIT
   url: https://github.com/nvbn/thefuck/blob/master/LICENSE.md
 
-price: 1.99
+price: 0
 accounts: []
 command: 'fuck                            '
 

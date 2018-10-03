@@ -1,7 +1,7 @@
 state: published
 name: Git
 slug: git
-description: Dstributed version control system for small to very large projects
+description: Distributed version control system for small to very large projects
 description_long: |
   Git is a free and open source distributed version control system
   designed to handle everything from small to very large projects
@@ -20,7 +20,7 @@ license:
   name: GPL-2.0
   url: https://github.com/git/git/blob/master/COPYING
 
-price: 2.99
+price: 0
 
 accounts:
   - name: paypal

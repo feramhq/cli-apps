@@ -23,7 +23,7 @@ license:
   name: GPLv2
   url: https://github.com/nomeata/arbtt/blob/master/LICENSE
 
-price: 2.99
+price: 0
 paypal_account: # Email address of PayPal account
 command: 'arbtt-capture &               '
 installation_url: |

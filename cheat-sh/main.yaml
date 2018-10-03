@@ -4,6 +4,6 @@ slug: cheat-sh
 description: Community driven cheat sheets
 url: https://github.com/chrisallenlane/cheat
 license: MIT
-price: Free
+price: 0
 command: 'cht.sh python random list elements'
 installation: curl https://cht.sh/:cht.sh > ~/bin/cht.sh; chmod +x ~/bin/cht.sh

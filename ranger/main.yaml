@@ -17,7 +17,7 @@ license:
   name: GPLv3
   url: https://github.com/ranger/ranger/blob/master/LICENSE
 
-price: 2.99
+price: 0
 accounts:
   - name: bitcoin
     address: 1NeshVsKwMXa2F87yobBuXFXmi3JKcCamW

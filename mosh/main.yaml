@@ -8,7 +8,7 @@ description: |
 url: https://mosh.org
 code: https://github.com/mobile-shell/mosh
 license: '?'
-price: Free
+price: 0
 command: 'mosh john@example.com -- ls -la'
 installation:
    homebrew: brew install mosh

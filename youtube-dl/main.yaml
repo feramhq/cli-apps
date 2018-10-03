@@ -17,7 +17,7 @@ code: https://github.com/rg3/youtube-dl/
 license:
   name: Unlicense
   url: https://github.com/rg3/youtube-dl/blob/master/LICENSE
-price: 2.99
+price: 0
 accounts:
   - name: paypal
     address: QC9DQRCVET9NQ

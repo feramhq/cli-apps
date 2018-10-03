@@ -136,7 +136,7 @@ code: https://github.com/jgm/pandoc/
 license:
   name: Misc
   url: https://github.com/jgm/pandoc/blob/master/COPYRIGHT
-price: 2.99
+price: 0
 accounts:
   - name: paypal
     address: jgm@berkeley.edu

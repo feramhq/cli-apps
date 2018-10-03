@@ -29,7 +29,7 @@ license:
   name: BSD-3-Clause
   url: https://github.com/jakubroztocil/httpie/blob/master/LICENSE
 
-price: 2.99  # Without currency
+price: 0  # Without currency
 accounts: []
 command: 'http PUT httpbin.org/put hello=world'
 

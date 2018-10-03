@@ -4,5 +4,5 @@ slug: autojump
 description: A cd command that learns - easily navigate directories
 url: https://github.com/wting/autojump
 license: GPL3
-price: Free
+price: 0
 command: 'j Deskt     '

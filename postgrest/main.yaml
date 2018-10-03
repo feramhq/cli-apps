@@ -15,7 +15,7 @@ code: https://github.com/PostgREST/postgrest
 license:
   name: MIT
   url: https://github.com/PostgREST/postgrest/blob/master/LICENSE
-price: 2.99
+price: 0
 accounts: []
 command: 'postgrest production.conf'
 

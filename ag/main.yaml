@@ -14,7 +14,7 @@ license:
   name: Apache-2.0
   url: https://github.com/ggreer/the_silver_searcher/blob/master/LICENSE
 
-price: 2.99
+price: 0
 accounts: []
 command: "ag '^bi(ke|cycle)$' ~/things"
 

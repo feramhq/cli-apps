@@ -21,7 +21,7 @@ license:
   name: BSD3
   url: https://github.com/tdammers/sprinkles/blob/master/LICENSE
 
-price: 2.99
+price: 0
 accounts: []
 command: 'sprinkles -serve 5000        '
 

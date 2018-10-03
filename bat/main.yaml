@@ -5,7 +5,7 @@ description: A cat clone with syntax highlighting and Git integration
 url: https://github.com/sharkdp/bat
 code: https://github.com/sharkdp/bat
 license: MIT
-price: Free
+price: 0
 command: 'bat readme.md          '
 installation:
   macos: brew install bat

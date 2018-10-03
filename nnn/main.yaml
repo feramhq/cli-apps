@@ -5,7 +5,7 @@ description: A fast terminal file manager
 url: https://github.com/jarun/nnn
 code: https://github.com/jarun/nnn
 license: https://github.com/jarun/nnn/blob/master/LICENSE
-price: Free
+price: 0
 command: 'nnn ~/Documents     '
 similar:
   - ranger

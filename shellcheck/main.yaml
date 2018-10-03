@@ -4,7 +4,7 @@ slug: shellcheck
 description: A static analysis tool for shell scripts
 url: https://www.shellcheck.net
 license: GPL3
-price: Free
+price: 0
 command: 'shellcheck script.sh'
 installation:
   default: stack install ShellCheck

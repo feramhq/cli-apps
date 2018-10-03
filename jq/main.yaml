@@ -20,7 +20,7 @@ code: https://github.com/stedolan/jq
 license:
   name: Misc
   url: https://github.com/stedolan/jq/blob/master/COPYING
-price: 2.99
+price: 0
 accounts: []
 command: 'jq .name package.json     '
 installation_url: https://stedolan.github.io/jq/download/

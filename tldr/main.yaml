@@ -11,11 +11,11 @@ code: https://github.com/tldr-pages/tldr
 license:
   name: MIT
   url: https://github.com/tldr-pages/tldr/blob/master/LICENSE.md
-price: 2.99
+price: 0
 
 accounts: []
 
-command: 'tldr tar          '
+command: 'tldr tar               '
 
 installation_url: https://tldr.sh/#installation
 installations:

@@ -29,7 +29,7 @@ license:
   name: Misc
   url: https://github.com/neovim/neovim/blob/master/LICENSE
 
-price: 2.99
+price: 0
 accounts:
   - name: bitcoin
     address: 1Evu6wPrzjsjrNPdCYbHy3HT6ry2EzXFyQ

@@ -17,7 +17,7 @@ code: https://github.com/asciinema/asciinema
 license:
   name: GPL3
   url: https://github.com/asciinema/asciinema/blob/develop/LICENSE
-price: 2.99
+price: 0
 accounts:
   - name: paypal
     address: donations@asciinema.org
