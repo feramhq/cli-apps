@@ -24,9 +24,6 @@ installations:
   - tool: chromebrew
     command: crew install thefuck
 
-  - tool: emerge
-    command: sudo emerge --ask app-shells/thefuck
-
   - tool: homebrew
     command: brew install thefuck
 
@@ -35,6 +32,9 @@ installations:
 
   - tool: pip
     command: pip install thefuck
+
+  - tool: portage
+    command: sudo emerge --ask app-shells/thefuck
 
   - tool: xbps
     command: sudo xbps-install thefuck

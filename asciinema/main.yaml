@@ -35,9 +35,6 @@ installations:
      docker run --rm -ti -v "$HOME/.config/asciinema":/root/.config/asciinema
      asciinema/asciinema
 
-  - tool: emerge
-    command: emerge -av asciinema
-
   - tool: homebrew
     command: brew install asciinema
 
@@ -52,6 +49,9 @@ installations:
 
   - tool: pip
     command: sudo pip install asciinema
+
+  - tool: portage
+    command: emerge -av asciinema
 
   - tool: yum
     command: sudo yum install asciinema

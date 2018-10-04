@@ -64,8 +64,8 @@ developer:
   website: https://twitter.com/jakubroztocil
 
 similar:
-  - name: curl
-    url: https://curl.haxx.se/
+  - name: Curl
+    slug: curl
     description: Tool and library for transferring data with URLs
 
 screenshots:

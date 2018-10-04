@@ -29,9 +29,6 @@ installations:
   - tool: dnf
     command: dnf install the_silver_searcher
 
-  - tool: emerge
-    command: emerge -a sys-apps/the_silver_searcher
-
   - tool: homebrew
     command: brew install the_silver_searcher
 
@@ -43,6 +40,9 @@ installations:
 
   - tool: pkg
     command: pkg install the_silver_searcher
+
+  - tool: portage
+    command: emerge -a sys-apps/the_silver_searcher
 
   - tool: sbopkg
     command: sbopkg -i the_silver_searcher

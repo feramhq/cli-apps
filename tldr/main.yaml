@@ -43,10 +43,10 @@ installations:
   - tool: pip
     command: pip install tldr
 
-  - tool: snap
+  - tool: snapcraft
     command: sudo snap install tldr
 
-  - tool: stack
+  - tool: stackage
     command: stack install tldr
 
   - tool: yaourt

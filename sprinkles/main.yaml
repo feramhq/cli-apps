@@ -27,7 +27,7 @@ command: 'sprinkles -serve 5000        '
 
 installation_url: https://github.com/tdammers/sprinkles#installing
 installations:
-  - tool: stack
+  - tool: stackage
     command: stack install sprinkles
 
 has_free_trail: true

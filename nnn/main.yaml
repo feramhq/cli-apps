@@ -18,12 +18,12 @@ installations:
     command: dnf install nnn
   - tool: pkg
     command: pkg install nnn
-  - tool: emerge
-    command: emerge nnn
   - tool: homebrew
     command: brew install nnn
   - tool: nix
     command: nix-env -i nnn
+  - tool: portage
+    command: emerge nnn
   - tool: zypper
     command: zypper in nnn
   - tool: slackpkg
