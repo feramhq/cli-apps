@@ -1,0 +1,144 @@
+state: published
+name: Homebrew
+slug: homebrew
+description: The missing package manager for macOS
+description_long: |
+  Homebrew installs the stuff you need that Apple didn’t.
+
+  Homebrew installs packages to their own directory
+  and then symlinks their files into /usr/local.
+
+  Homebrew won’t install files outside its prefix,
+  and you can place a Homebrew installation wherever you like.
+
+tags: [package-manager, macos, ruby]
+website: https://brew.sh/
+code: https://github.com/Homebrew/brew
+
+license:
+  name: BSD-2-Clause
+  url: https://github.com/Homebrew/brew/blob/master/LICENSE.txt
+
+price: 0
+
+accounts:
+  - name: patreon
+    address: homebrew
+  - name: paypal
+    address: V6ZE57MJRYC8L
+
+command: 'brew install sqlite          '
+
+installation_url: https://docs.brew.sh/Installation
+installations:
+  - tool: curl
+    command: >
+      /usr/bin/ruby -e "$(curl -fsSL
+        https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+has_free_trail: false
+license_terms: ""
+
+developer:
+  name: Software Freedom Conservancy
+  website: https://sfconservancy.org/
+
+similar:
+  - name: Linuxbrew
+    url: http://linuxbrew.sh/
+    description: The Homebrew package manager for Linux
+
+  - name: MacPorts
+    url: https://www.macports.org/
+    description: |
+      Easy-to-use system for compiling, installing, and upgrading software
+
+screenshots:
+  - screenshot-upgrade.png
+
+changelog_url: https://github.com/Homebrew/brew/releases
+changelog:
+  - version: 1.7.6
+    utc: 2018-09-22
+    url: https://github.com/Homebrew/brew/releases/tag/1.7.6
+    changes:
+      - "language/haskell: use v1 commands (@commitay)"
+      - "cache_store_spec: fix bad rebase. (@MikeMcQuaid)"
+      - "cache_store: handle missing process. (@MikeMcQuaid)"
+      - "components_order_cop: add all components (@commitay)"
+      - "Mojave is being released (@fxcoudert)"
+      - "Install and use RuboCop RSpec by default. (@MikeMcQuaid)"
+      - "shims/super/cc: detect High Sierra differently. (@MikeMcQuaid)"
+      - "super/cc: further bump -mmacosx-version-min on Mojave (@fxcoudert)"
+      - "cache_store: handle corrupt DBM database. (@MikeMcQuaid)"
+      - "Run tests with HOMEBREW_DEVELOPER unset. (@reitermarkus)"
+      - "Bump sass from 3.5.7 to 3.6.0 in /docs (@Homebrew)"
+      - "Bump faraday from 0.15.2 to 0.15.3 in /docs (@Homebrew)"
+      - "Cleanup Travis and CI configuration. (@MikeMcQuaid)"
+      - "utils/fork: Check if error pipe is closed (@woodruffw)"
+      - "Add SystemCommand::Result#merged_output. (@reitermarkus)"
+      - "Update Gemfile.lock. (@reitermarkus)"
+      - "Improve code coverage (@alexbostock)"
+      - "make dependency_order_cop a regular audit (@commitay)"
+      - "test/Gemfile: add ronn. (@MikeMcQuaid)"
+      - "update-reset: allow specifying repositories. (@MikeMcQuaid)"
+      - "Utils::Analytics.custom_prefix_label: Fix typo (@sjackman)"
+      - "Use ActiveSupport File.atomic_write (@MikeMcQuaid)"
+      - "Use ActiveSupport Hash#deep_merge (@MikeMcQuaid)"
+      - "Library/.rubocop.yml: disable RescueEnsureAlignment (@commitay)"
+      - Update to RuboCop 0.59.1. (@reitermarkus)
+
+  - version: 1.7.5
+    utc: 2018-09-17
+    url: https://github.com/Homebrew/brew/releases/tag/1.7.5
+    changes:
+      - add quotes surrounding $(brew --cache)
+          in help for cleanup command (@yurikoles)
+      - Update RuboCop to 0.58.2. (@reitermarkus)
+      - Add String#delete_prefix backport. (@reitermarkus)
+      - Use ActiveSupport Object#blank? and #present? (@MikeMcQuaid)
+      - Bump parallel_tests from 2.22.1 to 2.23.0 in
+          /Library/Homebrew/test (@Homebrew)
+      - Remove __MACOSX directory after unzipping. (@reitermarkus)
+      - "Cask: constrain quarantine support status (@amyspark)"
+      - Retry all specs with :needs_network. (@reitermarkus)
+      - Make remaining curl respect HOMEBREW_CURLRC (@lembacon)
+      - Update vendored gems (@MikeMcQuaid)
+      - Use Bundler to manage vendor directory (@MikeMcQuaid)
+      - use 'number_readable' when displaying analytics (@zgracem)
+      - "Upgrade: implement linkage repair (@amyspark)"
+      - Elide default root_url in the bottle block (@sjackman)
+      - "cmd/shellenv: use Bash. (@MikeMcQuaid)"
+      - Try Azure Pipelines (@Homebrew)
+      - "dev-cmd/bottle: fix --keep-old with --root-url (@scpeters)"
+      - Fix extracting .pax archives. (@reitermarkus)
+      - Increase the unit test coverage of messages.rb (@alecclarke)
+      - Set HOMEBREW_BOTTLE_DEFAULT_DOMAIN based on operating system (@alebcay)
+      - Resolve formulae in brew cleanup. (@reitermarkus)
+      - "README: remove DomT4. (@MikeMcQuaid)"
+      - "docs/Maintainer-Guidelines:
+          retire lead maintainer position in Febuary. (@MikeMcQuaid)"
+      - Bump parser from 2.5.1.0 to 2.5.1.2 in
+          /Library/Homebrew/test (@Homebrew)
+      - Bump rspec-expectations from 3.8.0 to 3.8.1 in
+          /Library/Homebrew/test (@Homebrew)
+      - Bump commonmarker from 0.17.12 to 0.17.13 in /docs (@Homebrew)
+      - Bump docile from 1.3.0 to 1.3.1 in /Library/Homebrew/test (@Homebrew)
+      - Bump ruby-progressbar from 1.9.0 to 1.10.0 in
+          /Library/Homebrew/test (@Homebrew)
+      - Elide prefix "/usr/local" in bottle block (@sjackman)
+      - Bump octokit from 4.11.0 to 4.12.0 in /docs (@Homebrew)
+      - Add Homebrew::DEFAULT_PREFIX for Linux (@sjackman)
+      - Don’t add error when changing checksum to :no_check. (@reitermarkus)
+
+  - version: 1.7.4
+    utc: 2018-09-11
+    url: https://github.com/Homebrew/brew/releases/tag/1.7.4
+
+  - version: 1.7.3
+    utc: 2018-09-03
+    url: https://github.com/Homebrew/brew/releases/tag/1.7.3
+
+
+
+
