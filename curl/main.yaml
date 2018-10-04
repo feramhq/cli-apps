@@ -1,0 +1,74 @@
+state: published
+name: Curl
+slug: curl
+description: Transferring data with URLs
+description_long: |
+   Curl is used in command lines or scripts to transfer data.
+   It is also used in cars, television sets, routers, printers,
+   audio equipment, mobile phones, tablets, settop boxes,
+   media players and is the internet transfer backbone for thousands
+   of software applications affecting billions of humans daily.
+tags: [http, ftp, client, c]
+website: https://curl.haxx.se/
+code: https://github.com/curl/curl
+
+license:
+  name: ISC
+  url: https://github.com/curl/curl/blob/master/COPYING
+
+price: 0
+
+accounts:
+  - name: opencollective
+    address: https://opencollective.com/curl
+
+command: 'curl https://cliapp.store        '
+
+installation_url: https://curl.haxx.se/download.html
+installations:
+  - tool: apt
+    command: sudo apt install curl
+
+  - tool: chocolatey
+    command: choco install curl
+
+  - tool: homebrew
+    command: brew install curl
+
+  - tool: nix
+    command: nix-env -i asciinema
+
+has_free_trail: false
+license_terms: ""
+
+developer:
+  name: Daniel Stenberg
+  website: https://daniel.haxx.se/
+
+similar:
+  - name: Wget
+    url: https://www.gnu.org/software/wget/
+    description: Tool for retrieving files using HTTP(S) and FTP(S)
+
+  - name: HTTPie
+    slug: httpie
+    description: |
+      HTTP client with an intuitive UI, JSON support,
+      syntax highlighting, and more
+
+screenshots:
+  - screenshot-https.png
+
+changelog_url: https://curl.haxx.se/docs/releases.html
+changelog:
+  - version: 7.61.1
+    utc: 2018-09-05
+    url: https://curl.haxx.se/changes.html#7_61_1
+
+  - version: 7.61.0
+    utc: 2018-07-11
+    url: https://curl.haxx.se/changes.html#7_61_0
+
+  - version: 7.60.0
+    utc: 2018-05-16
+    url: https://curl.haxx.se/changes.html#7_60_0
