@@ -145,8 +145,12 @@ installation_url: https://github.com/jgm/pandoc/blob/master/INSTALL.md
 installations:
   - tool: homebrew
     command: brew install pandoc
+
   - tool: chocolatey
     command: choco install pandoc
+
+  - tool: apt
+    command: sudo apt install pandoc
 
 has_free_trail: true
 license_terms: ""
