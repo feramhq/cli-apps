@@ -2,7 +2,9 @@ state: draft
 name: Shellcheck
 slug: shellcheck
 description: A static analysis tool for shell scripts
-url: https://www.shellcheck.net
+website: https://www.shellcheck.net
+code: https://github.com/koalaman/shellcheck
+issues: https://github.com/koalaman/shellcheck/issues
 license: GPL3
 price: 0
 command: 'shellcheck script.sh'

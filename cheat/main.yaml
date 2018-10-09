@@ -2,7 +2,9 @@ state: draft
 name: Cheat
 slug: cheat
 description: Interactive cheatsheets on the command line
-url: https://github.com/chrisallenlane/cheat
+website: https://github.com/chrisallenlane/cheat
+code: https://github.com/chrisallenlane/cheat
+issues: https://github.com/chrisallenlane/cheat/issues
 license: MIT
 price: 0
 command: 'cheat tar                 '

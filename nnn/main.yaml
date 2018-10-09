@@ -4,6 +4,7 @@ slug: nnn
 description: A fast terminal file manager
 url: https://github.com/jarun/nnn
 code: https://github.com/jarun/nnn
+issues: https://github.com/jarun/nnn/issues
 license: https://github.com/jarun/nnn/blob/master/LICENSE
 price: 0
 command: 'nnn ~/Documents     '

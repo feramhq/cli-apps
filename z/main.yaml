@@ -4,6 +4,7 @@ slug: z
 description: Jump to your most used directories
 url: https://github.com/rupa/z/
 code: https://github.com/rupa/z/
+issues: https://github.com/rupa/z/issues
 license: UNLICENSED
 price: 0
 command: 'z Deskt            '

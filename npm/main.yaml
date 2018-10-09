@@ -4,6 +4,7 @@ slug: npm
 description: A package manager for JavaScript
 url: https://github.com/npm/cli
 code: https://github.com/npm/cli
+issues: https://github.com/npm/cli/issues
 license: https://github.com/npm/cli/blob/latest/LICENSE
 price: 0
 command: 'npm install lodash'

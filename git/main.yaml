@@ -15,6 +15,7 @@ description_long: |
 tags: [version, control]
 website: https://git-scm.com/
 code: https://github.com/git/git
+issues: https://github.com/git/git/issues
 
 license:
   name: GPL-2.0
@@ -59,7 +60,7 @@ screenshots:
 changelog_url: https://github.com/git/git/tree/master/Documentation/RelNotes
 changelog:
   - version: 2.19.0
-    utc: 2018-09-10
+    utc: '2018-09-10'
     url: |
       https://github.com/git/git/blob/master/Documentation/RelNotes/2.19.0.txt
     description: |
@@ -635,13 +636,13 @@ changelog:
       - Code cleanup, docfix, build fix, etc.
 
   - version: 2.18.0
-    utc: 2018-06-21
+    utc: '2018-06-21'
     url: |
       https://github.com/git/git/blob/master/Documentation/RelNotes/2.18.0.txt
     description: ""
 
   - version: 2.17.1
-    utc: 2018-05-22
+    utc: '2018-05-22'
     url: |
       https://github.com/git/git/blob/master/Documentation/RelNotes/2.17.1.txt
     description: ""

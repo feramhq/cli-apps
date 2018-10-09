@@ -12,6 +12,7 @@ tags:
   - api
 website: http://postgrest.org
 code: https://github.com/PostgREST/postgrest
+issues: https://github.com/PostgREST/postgrest/issues
 license:
   name: MIT
   url: https://github.com/PostgREST/postgrest/blob/master/LICENSE
@@ -42,7 +43,7 @@ screenshots:
 changelog_url: https://github.com/PostgREST/postgrest/blob/master/CHANGELOG.md
 changelog:
   - version: 5.1.0
-    utc: 2018-08-31
+    utc: '2018-08-31'
     url: https://github.com/PostgREST/postgrest/blob/master/CHANGELOG.md#510---2018-08-31
     changes:
       - "Added: #1099, Add support for getting json/jsonb by array index -
@@ -79,6 +80,6 @@ changelog:
       - "Deprecated: #724, SIGHUP deprecated, SIGUSR1 should be used instead"
 
   - version: 5.0.0
-    utc: 2018-05-14
+    utc: '2018-05-14'
     changes: []
 

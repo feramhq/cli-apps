@@ -2,7 +2,9 @@ state: draft
 name: Autojump
 slug: autojump
 description: A cd command that learns - easily navigate directories
-url: https://github.com/wting/autojump
+website: https://github.com/wting/autojump
+code: https://github.com/wting/autojump
+issues: https://github.com/wting/autojump/issues
 license: GPL3
 price: 0
 command: 'j Deskt     '

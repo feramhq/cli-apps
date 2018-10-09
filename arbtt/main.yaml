@@ -18,6 +18,7 @@ tags:
   - tracking
 website: http://arbtt.nomeata.de
 code: https://github.com/nomeata/arbtt
+issues: https://github.com/nomeata/arbtt/issues
 
 license:
   name: GPLv2

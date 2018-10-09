@@ -24,6 +24,7 @@ description_long: |
 tags: [http, rest, client, json]
 website: https://httpie.org/
 code: https://github.com/jakubroztocil/httpie
+issues: https://github.com/jakubroztocil/httpie/issues
 
 license:
   name: BSD-3-Clause
@@ -74,12 +75,12 @@ screenshots:
 changelog_url: https://github.com/jakubroztocil/httpie/blob/master/CHANGELOG.rst
 changelog:
   - version: 0.9.9
-    utc: 2016-12-08
+    utc: '2016-12-08'
     changes:
       - Fixed README
 
   - version: 0.9.8
-    utc: 2016-12-08
+    utc: '2016-12-08'
     changes:
       - Extended auth plugin API
       - Added exit status code 7 for plugin errors
@@ -89,7 +90,7 @@ changelog:
       - Added the standard exit status code 130 for keyboard interrupts
 
   - version: 0.9.6
-    utc: 2016-08-13
+    utc: '2016-08-13'
     changes:
       - Added Python 3 as a dependency for Homebrew installations to ensure some
         of the newer HTTP features work out of the box for macOS users

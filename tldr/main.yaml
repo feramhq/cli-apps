@@ -8,6 +8,7 @@ description_long: |
 tags: [man, manpage, manual, documentation, example, help]
 website: https://tldr.sh
 code: https://github.com/tldr-pages/tldr
+issues: https://github.com/tldr-pages/tldr/issues
 license:
   name: MIT
   url: https://github.com/tldr-pages/tldr/blob/master/LICENSE.md
@@ -70,21 +71,21 @@ screenshots:
 changelog_url: https://github.com/tldr-pages/tldr-node-client/releases
 changelog:
   - version: 3.2.5
-    utc: 2018-08-23
+    utc: '2018-08-23'
     url: https://github.com/tldr-pages/tldr-node-client/releases/tag/v3.2.5
     changes:
       - Using https path for asset download
       - Fixed UT issue where it would fail if $HOME/.tldrrc was not present.
 
   - version: 3.2.4
-    utc: 2018-07-24
+    utc: '2018-07-24'
     url: https://github.com/tldr-pages/tldr-node-client/releases/tag/v3.2.4
     changes:
       - Upgraded natural to remove node-webworkers as a dependency.
         This was a cause of major install issues.
 
   - version: 3.2.3
-    utc: 2018-05-08
+    utc: '2018-05-08'
     url: https://github.com/tldr-pages/tldr-node-client/releases/tag/v3.2.3
     changes:
       - Fixed the crash on using --render option

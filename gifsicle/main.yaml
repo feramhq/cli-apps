@@ -2,7 +2,9 @@ state: draft
 name: Gifsicle
 slug: gifsicle
 description: Create, manipulate, and optimize GIF images and animations
-url: http://www.lcdf.org/gifsicle/
+website: http://www.lcdf.org/gifsicle/
+code: https://github.com/kohler/gifsicle
+issues: https://github.com/kohler/gifsicle/issues
 license: GPL2
 price: 0
 command: 'gifsicle --delay=10 --loop *.gif > anim.gif'

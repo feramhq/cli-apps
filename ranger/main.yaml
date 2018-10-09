@@ -13,6 +13,7 @@ tags:
   - manager
 website: http://ranger.github.io
 code: https://github.com/ranger/ranger
+issues: https://github.com/ranger/ranger/issues
 license:
   name: GPLv3
   url: https://github.com/ranger/ranger/blob/master/LICENSE
@@ -46,7 +47,7 @@ screenshots:
 changelog_url: https://ranger.github.io/changelog.html
 changelog:
   - version: 1.9.2
-    utc: 2018-09-09
+    utc: '2018-09-09'
     url: https://ranger.github.io/changelog.html
     changes:
       - Added a hint_collapse_threshold setting
@@ -92,7 +93,7 @@ changelog:
       - Update colorscheme documentation
 
   - version: 1.9.1
-    utc: 2018-02-22
+    utc: '2018-02-22'
     url: https://ranger.github.io/changelog.html
     changes:
       - Fixed the rifle config backwards compatibility (regression in 1.9.0)

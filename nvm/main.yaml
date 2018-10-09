@@ -1,4 +1,6 @@
 state: draft
 name: Node Version Manager
 slug: nvm
+website: https://github.com/creationix/nvm
 code: https://github.com/creationix/nvm
+issues: https://github.com/creationix/nvm/issues

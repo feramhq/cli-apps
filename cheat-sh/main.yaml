@@ -2,7 +2,9 @@ state: draft
 name: Cheat.sh
 slug: cheat-sh
 description: Community driven cheat sheets
-url: https://github.com/chrisallenlane/cheat
+website: https://github.com/chrisallenlane/cheat
+code: https://github.com/chrisallenlane/cheat
+issues: https://github.com/chrisallenlane/cheat
 license: MIT
 price: 0
 command: 'cht.sh python random list elements'

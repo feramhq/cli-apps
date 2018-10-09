@@ -2,8 +2,9 @@ state: draft
 name: Pip
 slug: pip
 description: The PyPA recommended tool for installing Python packages
-url: https://pip.pypa.io/
+website: https://pip.pypa.io/
 code: https://github.com/pypa/pip
+issues: https://github.com/pypa/pip/issues
 license: MIT
 price: 0
 command: 'pip install scikit-learn'

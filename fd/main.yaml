@@ -2,7 +2,9 @@ state: draft
 name: Fd
 slug: fd
 description: A simple, fast and user-friendly alternative to 'find'
-url: https://github.com/sharkdp/fd
+website: https://github.com/sharkdp/fd
+code: https://github.com/sharkdp/fd
+issues: https://github.com/sharkdp/fd/issues
 license: MIT
 price: 0
 command: 'fd --extension .html pattern'

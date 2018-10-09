@@ -18,6 +18,7 @@ tags:
 
 website: https://github.com/feramhq/transity
 code: https://github.com/feramhq/transity
+issues: https://github.com/feramhq/transity/issues
 license:
   name: ISC
   url: https://github.com/feramhq/transity/blob/master/LICENSE
@@ -59,7 +60,7 @@ screenshots:
 changelog_url: https://github.com/feramhq/transity/releases
 changelog:
   - version: "0.3.0"
-    utc: 2018-09-10
+    utc: '2018-09-10'
     changes:
       - Add command "transfers"
       - Upgrade to PureScript 0.12, use psc-package instead of bower
@@ -74,13 +75,13 @@ changelog:
       - Add description on how to build it
 
   - version: "0.2.1"
-    utc: 2018-06-05
+    utc: '2018-06-05'
     changes:
       - Fix test command for CI, fix typos
       - Fix references, add screenshot of plot
 
   - version: "0.2.0"
-    utc: 2018-06-05
+    utc: '2018-06-05'
     changes:
       - Fix license file
       - Call data file journal and not ledger
@@ -110,7 +111,7 @@ changelog:
       - Simplify `case of` expression in main file
 
   - version: "0.1.0-alpha"
-    utc: 2018-01-18
+    utc: '2018-01-18'
     changes:
       - Add field "repository" to package file
       - Add dedicated CLI file, remove yarn.lock file

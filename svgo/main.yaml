@@ -2,7 +2,9 @@ state: draft
 name: SVGO
 slug: svgo
 description: Tool for optimizing SVG files
-url: https://github.com/svg/svgo
+website: https://github.com/svg/svgo
+code: https://github.com/svg/svgo
+issues: https://github.com/svg/svgo/issues
 license: MIT
 price: 0
 command: 'svgo icon.svg icon.min.svg'

@@ -17,6 +17,7 @@ tags:
 
 website: http://hledger.org
 code: https://github.com/simonmichael/hledger
+issues: https://github.com/simonmichael/hledger/issues
 license:
   name: GPL3
   url: https://github.com/simonmichael/hledger/blob/master/LICENSE
@@ -51,7 +52,7 @@ installations:
 
 
 has_free_trail: true
-license_terms: ""
+license_terms: ''
 
 developer:
   name: Simon Michael
@@ -67,8 +68,8 @@ screenshots:
 
 changelog_url: http://hledger.org/release-notes.html
 changelog:
-  - version: "1.10"
-    utc: 2018-06-30
+  - version: '1.10'
+    utc: '2018-06-30'
     url: http://hledger.org/release-notes.html#hledger-1.10
     changes:
       - "journal: many parse error messages have become more informative, and
@@ -119,13 +120,18 @@ changelog:
       - "smart dates now allow the YYYYMM format, and are better documented"
       - "uses hledger-lib 1.10"
 
-  - version: "1.9"
-    utc: 2018-03-31
+  - version: '1.9'
+    utc: '2018-03-31'
     url: http://hledger.org/release-notes.html#hledger-1.9
     changes: []
 
-  - version: "1.5"
-    utc: 2017-12-31
+  - version: '1.5'
+    utc: '2017-12-31'
     url: http://hledger.org/release-notes.html#hledger-1.5
+    changes: []
+
+  - version: '0.1'
+    utc: '2008-10-15'
+    url: http://hledger.org/release-notes.html#hledger-0.1
     changes: []
 

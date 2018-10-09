@@ -133,6 +133,7 @@ tags:
   - Convert
 website: https://pandoc.org/
 code: https://github.com/jgm/pandoc/
+issues: https://github.com/jgm/pandoc/issues
 license:
   name: Misc
   url: https://github.com/jgm/pandoc/blob/master/COPYRIGHT
@@ -167,7 +168,7 @@ screenshots:
 changelog_url: https://pandoc.org/releases.html
 changelog:
   - version: 2.3.1
-    utc: 2018-09-28
+    utc: '2018-09-28'
     url: https://pandoc.org/releases.html#pandoc-2.3.1-28-september-2018
     description: |
       - RST reader
@@ -272,12 +273,12 @@ changelog:
         This fixes issues with segfaults in the 32-bit Windows binaries (#4283).
 
   - version: 2.3.0
-    utc: 2018-09-16
+    utc: '2018-09-16'
     url: https://pandoc.org/releases.html#pandoc-2.3-16-september-2018
     changes: []
 
   - version: 2.2.3.2
-    utc: 2018-08-07
+    utc: '2018-08-07'
     url: https://pandoc.org/releases.html#pandoc-2.2.3.2-7-august-2018
     changes: []
 

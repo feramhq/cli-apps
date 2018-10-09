@@ -10,6 +10,7 @@ description_long: |
 tags: [search]
 website: https://geoff.greer.fm/ag/
 code: https://github.com/ggreer/the_silver_searcher
+issues: https://github.com/ggreer/the_silver_searcher/issues
 license:
   name: Apache-2.0
   url: https://github.com/ggreer/the_silver_searcher/blob/master/LICENSE
@@ -75,22 +76,22 @@ screenshots:
 changelog_url: https://github.com/ggreer/the_silver_searcher/releases
 changelog:
   - version: 2.2.0
-    utc: 2018-08-07
+    utc: '2018-08-07'
     changes: []
 
   - version: 2.1.0
-    utc: 2017-08-25
+    utc: '2017-08-25'
     changes: []
 
   - version: 2.0.0
-    utc: 2017-06-04
+    utc: '2017-06-04'
     changes:
       - Removal of .agignore (in favor of .ignore)
 
   - version: 1.0.3
-    utc: 2017-05-03
+    utc: '2017-05-03'
     changes: []
 
   - version: 1.0.2
-    utc: 2016-12-03
+    utc: '2016-12-03'
     changes: []

@@ -16,6 +16,7 @@ description_long: |
 tags: [cms, web, html, frontend]
 website: https://sprinkles.tobiasdammers.nl/
 code: https://github.com/tdammers/sprinkles
+issues: https://github.com/tdammers/sprinkles/issues
 
 license:
   name: BSD3
@@ -48,20 +49,20 @@ screenshots:
 changelog_url: https://github.com/tdammers/sprinkles/releases
 changelog:
   - version: 0.5.0.0
-    utc: 2018-02-06
+    utc: '2018-02-06'
     url: https://github.com/tdammers/sprinkles/releases/tag/0.5.0.0
     changes:
       - Serve multiple sites at once on separate ports
       - Make all paths absolute (based on project-relative paths)
 
   - version: 0.4.3.0
-    utc: 2017-06-26
+    utc: '2017-06-26'
     url: https://github.com/tdammers/sprinkles/blob/master/CHANGELOG.md#0430
     changes:
       - Nicer YAML syntax for SQL backend.
 
   - version: 0.4.2.0
-    utc: 2017-06-26
+    utc: '2017-06-26'
     url: https://github.com/tdammers/sprinkles/blob/master/CHANGELOG.md#0420
     changes:
       - Handle SQL NULL more leniently in the SQL backend;
@@ -81,7 +82,7 @@ changelog:
         target, based on backend data.
 
   - version: 0.4.1.2
-    utc: 2017-06-21
+    utc: '2017-06-21'
     url: https://github.com/tdammers/sprinkles/blob/master/CHANGELOG.md#0420
     changes:
       - Serve html as utf-8 on apache for baked site

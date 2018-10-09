@@ -11,6 +11,7 @@ description_long: |
 tags: [http, ftp, client, c]
 website: https://curl.haxx.se/
 code: https://github.com/curl/curl
+issues: https://github.com/curl/curl/issues
 
 license:
   name: ISC
@@ -62,13 +63,16 @@ screenshots:
 changelog_url: https://curl.haxx.se/docs/releases.html
 changelog:
   - version: 7.61.1
-    utc: 2018-09-05
+    utc: '2018-09-05'
     url: https://curl.haxx.se/changes.html#7_61_1
+    changes: []
 
   - version: 7.61.0
-    utc: 2018-07-11
+    utc: '2018-07-11'
     url: https://curl.haxx.se/changes.html#7_61_0
+    changes: []
 
   - version: 7.60.0
-    utc: 2018-05-16
+    utc: '2018-05-16'
     url: https://curl.haxx.se/changes.html#7_60_0
+    changes: []

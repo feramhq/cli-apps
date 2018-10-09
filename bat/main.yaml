@@ -2,8 +2,9 @@ state: draft
 name: Bat
 slug: bat
 description: A cat clone with syntax highlighting and Git integration
-url: https://github.com/sharkdp/bat
+website: https://github.com/sharkdp/bat
 code: https://github.com/sharkdp/bat
+issues: https://github.com/sharkdp/bat/issues
 license: MIT
 price: 0
 command: 'bat readme.md          '

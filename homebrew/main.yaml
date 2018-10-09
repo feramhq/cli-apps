@@ -14,6 +14,7 @@ description_long: |
 tags: [package-manager, macos, ruby]
 website: https://brew.sh/
 code: https://github.com/Homebrew/brew
+issues: https://github.com/Homebrew/brew/issues
 
 license:
   name: BSD-2-Clause
@@ -59,7 +60,7 @@ screenshots:
 changelog_url: https://github.com/Homebrew/brew/releases
 changelog:
   - version: 1.7.6
-    utc: 2018-09-22
+    utc: '2018-09-22'
     url: https://github.com/Homebrew/brew/releases/tag/1.7.6
     changes:
       - "language/haskell: use v1 commands (@commitay)"
@@ -89,7 +90,7 @@ changelog:
       - Update to RuboCop 0.59.1. (@reitermarkus)
 
   - version: 1.7.5
-    utc: 2018-09-17
+    utc: '2018-09-17'
     url: https://github.com/Homebrew/brew/releases/tag/1.7.5
     changes:
       - add quotes surrounding $(brew --cache)
@@ -132,13 +133,14 @@ changelog:
       - Don’t add error when changing checksum to :no_check. (@reitermarkus)
 
   - version: 1.7.4
-    utc: 2018-09-11
+    utc: '2018-09-11'
     url: https://github.com/Homebrew/brew/releases/tag/1.7.4
+    changes: []
 
   - version: 1.7.3
-    utc: 2018-09-03
+    utc: '2018-09-03'
     url: https://github.com/Homebrew/brew/releases/tag/1.7.3
-
+    changes: []
 
 
 

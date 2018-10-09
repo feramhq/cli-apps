@@ -24,6 +24,7 @@ description_long: |
 tags: [editor, vim]
 website: https://neovim.io/
 code: https://github.com/neovim/neovim
+issues: https://github.com/neovim/neovim/issues
 
 license:
   name: Misc
@@ -79,7 +80,7 @@ screenshots:
 changelog_url: https://github.com/neovim/neovim/releases
 changelog:
   - version: 0.3.1
-    utc: 2018-07-19
+    utc: '2018-07-19'
     url: https://github.com/neovim/neovim/releases/tag/v0.3.1
     description: |
       Features:
@@ -119,7 +120,7 @@ changelog:
       - screen: use UTF-8 representation
 
   - version: 0.3.0
-    utc: 2018-06-11
+    utc: '2018-06-11'
     url: https://github.com/neovim/neovim/releases/tag/v0.3.0
     description: |
       Features:

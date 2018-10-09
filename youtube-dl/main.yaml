@@ -14,6 +14,7 @@ description_long: |
 tags: [video, youtube, download]
 website: http://rg3.github.io/youtube-dl/
 code: https://github.com/rg3/youtube-dl/
+issues: https://github.com/rg3/youtube-dl/issues
 license:
   name: Unlicense
   url: https://github.com/rg3/youtube-dl/blob/master/LICENSE
@@ -50,7 +51,7 @@ screenshots:
 changelog_url: https://github.com/rg3/youtube-dl/blob/master/ChangeLog
 changelog:
   - version: 2018.09.26
-    utc: 2018-09-26
+    utc: '2018-09-26'
     description: |
       Extractors
 
@@ -61,7 +62,7 @@ changelog:
       - * [zattoo] Fix extraction (#17175, #17542)
 
   - version: 2018.09.18
-    utc: 2018-09-18
+    utc: '2018-09-18'
     description: |
       Core
 

@@ -2,6 +2,9 @@ state: draft
 name: Trash
 slug: trash
 description: Move files and folders to the trash
+website: https://github.com/sindresorhus/trash-cli
+code: https://github.com/sindresorhus/trash-cli
+issues: https://github.com/sindresorhus/trash-cli/issues
 license: MIT
 price: 0
 command: 'trash obsolete-images'

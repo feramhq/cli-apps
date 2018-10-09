@@ -2,8 +2,9 @@ state: draft
 name: Exa
 slug: exa
 description: A modern replacement for ls
-url: https://the.exa.website
+website: https://the.exa.website
 code: https://github.com/ogham/exa
+issues: https://github.com/ogham/exa/issues
 license: MIT
 price: 0
 command: 'exa --long --header --git'

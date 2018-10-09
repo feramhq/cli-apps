@@ -2,7 +2,9 @@ state: draft
 name: Fzf
 slug: fzf
 description: A command-line fuzzy finder
-url: https://github.com/junegunn/fzf
+website: https://github.com/junegunn/fzf
+code: https://github.com/junegunn/fzf
+issues: https://github.com/junegunn/fzf/issues
 license: MIT
 price: 0
 command: 'find * -type f | fzf > selected'

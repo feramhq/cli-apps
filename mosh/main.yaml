@@ -5,8 +5,9 @@ description: |
   Remote terminal app with support for roaming,
   intermittent connectivity,
   intelligent local echo, and line editing
-url: https://mosh.org
+website: https://mosh.org
 code: https://github.com/mobile-shell/mosh
+issues: https://github.com/mobile-shell/mosh/issues
 license: '?'
 price: 0
 command: 'mosh john@example.com -- ls -la'

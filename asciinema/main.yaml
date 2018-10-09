@@ -14,6 +14,7 @@ tags:
   - recording
 website: https://asciinema.org
 code: https://github.com/asciinema/asciinema
+issues: https://github.com/asciinema/asciinema/issues
 license:
   name: GPL3
   url: https://github.com/asciinema/asciinema/blob/develop/LICENSE
@@ -74,7 +75,7 @@ screenshots:
 changelog_url: https://github.com/asciinema/asciinema/blob/develop/CHANGELOG.md
 changelog:
   - version: 2.0.1
-    utc: 2018-04-04
+    utc: '2018-04-04'
     url: https://github.com/asciinema/asciinema/blob/develop/CHANGELOG.md#201-2018-04-04
     changes:
       - Fixed example in asciicast v2 format doc
@@ -86,7 +87,7 @@ changelog:
       - Internal refactorings
 
   - version: 2.0.0
-    utc: 2018-02-10
+    utc: '2018-02-10'
     url: https://github.com/asciinema/asciinema/blob/develop/CHANGELOG.md#201-2018-04-04
     changes:
       - New asciicast v2 file format
