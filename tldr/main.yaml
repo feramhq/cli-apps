@@ -60,6 +60,10 @@ developer:
   name: Various
   website: https://github.com/tldr-pages/tldr/blob/master/GOVERNANCE.md
 
+maintainer:
+  name: Feram GmbH
+  website: https://feram.io
+
 similar:
   - name: Cheat
     url: https://github.com/chrisallenlane/cheat

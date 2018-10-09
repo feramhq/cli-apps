@@ -58,6 +58,10 @@ developer:
   name: Simon Michael
   website: http://joyful.com
 
+maintainer:
+  name: Feram GmbH
+  website: https://feram.io
+
 similar:
   - name: Transity
     slug: transity

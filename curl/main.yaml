@@ -46,6 +46,10 @@ developer:
   name: Daniel Stenberg
   website: https://daniel.haxx.se/
 
+maintainer:
+  name: Feram GmbH
+  website: https://feram.io
+
 similar:
   - name: Wget
     url: https://www.gnu.org/software/wget/

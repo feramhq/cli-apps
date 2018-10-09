@@ -61,6 +61,10 @@ developer:
   name: Geoff Greer
   website: https://geoff.greer.fm
 
+maintainer:
+  name: Feram GmbH
+  website: https://feram.io
+
 similar:
   - name: Ack
     url: https://beyondgrep.com/

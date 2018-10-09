@@ -40,6 +40,10 @@ developer:
   name:  # Text
   website:  # URL
 
+maintainer:
+  name: Feram GmbH
+  website: https://feram.io
+
 similar:
   - name:  # Text
     slug:  # Text

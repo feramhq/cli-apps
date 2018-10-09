@@ -38,6 +38,10 @@ developer:
   name: Tobias Dammers
   website: https://tobiasdammers.nl
 
+maintainer:
+  name: Feram GmbH
+  website: https://feram.io
+
 similar:
   - name: Pandoc
     slug: pandoc

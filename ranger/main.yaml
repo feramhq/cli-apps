@@ -36,6 +36,10 @@ developer:
   name: Roman Zimbelmann
   website: http://hut.pm
 
+maintainer:
+  name: Feram GmbH
+  website: https://feram.io
+
 similar:
   - name: Nnn
     slug: nnn

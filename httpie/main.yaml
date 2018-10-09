@@ -64,6 +64,10 @@ developer:
   name: Jakub Roztočil
   website: https://twitter.com/jakubroztocil
 
+maintainer:
+  name: Feram GmbH
+  website: https://feram.io
+
 similar:
   - name: Curl
     slug: curl

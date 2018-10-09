@@ -160,6 +160,10 @@ developer:
   name: John MacFarlane
   website: https://johnmacfarlane.net
 
+maintainer:
+  name: Feram GmbH
+  website: https://feram.io
+
 similar: []
 
 screenshots:

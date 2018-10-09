@@ -44,6 +44,10 @@ developer:
   name: Software Freedom Conservancy
   website: https://sfconservancy.org
 
+maintainer:
+  name: Feram GmbH
+  website: https://feram.io
+
 similar:
   - name: Subversion
     url: https://subversion.apache.org/
