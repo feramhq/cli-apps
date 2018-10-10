@@ -2,6 +2,8 @@ state: draft
 name: Z
 slug: z
 description: Jump to your most used directories
+tags:
+  - jumper
 url: https://github.com/rupa/z/
 code: https://github.com/rupa/z/
 issues: https://github.com/rupa/z/issues

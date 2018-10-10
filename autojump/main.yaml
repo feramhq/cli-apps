@@ -2,9 +2,34 @@ state: draft
 name: Autojump
 slug: autojump
 description: A cd command that learns - easily navigate directories
+tags: [jumper]
 website: https://github.com/wting/autojump
 code: https://github.com/wting/autojump
 issues: https://github.com/wting/autojump/issues
 license: GPL3
 price: 0
 command: 'j Deskt     '
+installations:
+  - tool: apt
+    command: sudo apt install autojump
+
+  - tool: homebrew
+    command: brew install autojump
+
+  - tool: macports
+    command: port install autojump
+
+  - tool: pacman
+    command: pacman install autojump
+
+  - tool: yum
+    command: yum install autojump
+
+similar:
+  - name: Fasd
+    slug: fasd
+    description: TODO
+
+  - name: Z
+    slug: z
+    description: TODO

@@ -2,6 +2,9 @@ state: draft
 name: Cheat
 slug: cheat
 description: Interactive cheatsheets on the command line
+tags:
+  - manual
+  - command
 website: https://github.com/chrisallenlane/cheat
 code: https://github.com/chrisallenlane/cheat
 issues: https://github.com/chrisallenlane/cheat/issues
@@ -9,3 +12,21 @@ license: MIT
 price: 0
 command: 'cheat tar                 '
 installation: pip install cheat
+
+
+similar:
+  - name: Tldr
+    slug: tldr
+    description: TODO
+
+  - name: Man
+    url: TODO
+    description: TODO
+
+  - name: Bro
+    url: TODO
+    description: TODO
+
+  - name: Howdoi
+    url: TODO
+    description: TODO

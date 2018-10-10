@@ -2,6 +2,8 @@ state: draft
 name: Fasd
 slug: fasd
 description: Quick access to files and directories
+tags:
+  - jumper
 website: https://github.com/clvv/fasd
 code: https://github.com/clvv/fasd
 issues: https://github.com/clvv/fasd/issues
@@ -10,3 +12,8 @@ price: 0
 installation:
   guide: https://github.com/clvv/fasd#install
 command: 'j Deskt              '
+
+similar:
+  - name: Autojump
+    slug: autojump
+    description: TODO

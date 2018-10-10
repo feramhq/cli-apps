@@ -2,6 +2,10 @@ state: draft
 name: Fzf
 slug: fzf
 description: A command-line fuzzy finder
+tags:
+  - search
+  - find
+  - fuzzy
 website: https://github.com/junegunn/fzf
 code: https://github.com/junegunn/fzf
 issues: https://github.com/junegunn/fzf/issues
@@ -11,3 +15,13 @@ command: 'find * -type f | fzf > selected'
 installation:
   macos: brew install fzf
   linuxbrew: brew install fzf
+
+
+similar:
+  - name: Find
+    url: TODO
+    description: TODO
+
+  - name: Locate
+    url: TODO
+    description: TODO

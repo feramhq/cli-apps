@@ -74,6 +74,11 @@ similar:
     url: https://github.com/BurntSushi/ripgrep
     description: Recursively search directories for a regex pattern
 
+  - name: Grep
+    url: https://www.gnu.org/software/grep/
+    description: |
+      Searche one or more files for lines containing a specified pattern
+
 screenshots:
   - screenshot-search.png
 
