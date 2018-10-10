@@ -1,0 +1,127 @@
+state: published
+name: Beets
+slug: beets
+description: View, query, and rename your music collection
+description_long: |
+  The purpose of beets is to get your music collection right once and for all.
+  It catalogs your collection, automatically improving its metadata as it goes
+  using the MusicBrainz database.
+  Then it provides a bouquet of tools for manipulating and accessing your music.
+
+  Because beets is designed as a library,
+  it can do almost anything you can imagine for your music collection.
+  Via plugins, beets becomes a panacea:
+
+  - Fetch or calculate all the metadata you could possibly need:
+    album art, lyrics, genres, tempos, ReplayGain levels,
+    or acoustic fingerprints.
+  - Get metadata from MusicBrainz, Discogs, or Beatport.
+    Or guess metadata using songs’ filenames or their acoustic fingerprints.
+  - Transcode audio to any format you like.
+  - Check your library for duplicate tracks and albums
+    or for albums that are missing tracks.
+  - Browse your music library graphically through a Web browser and play it in
+    any browser that supports HTML5 Audio.
+
+  If beets doesn’t do what you want yet,
+  writing your own plugin is shockingly simple if you know a little Python.
+
+tags:
+  - music
+  - manage
+website: http://beets.io/
+code: https://github.com/beetbox/beets
+issues: https://github.com/beetbox/beets/issues
+language: python
+
+license:
+  name: MIT
+  url: https://github.com/beetbox/beets/blob/master/LICENSE
+
+price: 0
+
+accounts:
+  - name: bitcoin
+    address: 1444ZujQGp3ciNbDwyuoaxjWNrz5suuCYo
+  - name: paypal
+    address: 9ZTENSNB64QFA
+
+command: "beet import ./music           "
+
+installation_url: |
+  https://beets.readthedocs.io/en/v1.4.7/guides/main.html#installing
+installations:
+  - tool: apt
+    command: sudo apt install beets
+
+  - tool: dnf
+    command: sudo dnf install beets beets-plugins beets-doc
+
+  - tool: eopkg
+    command: eopkg install beets
+
+  - tool: nix
+    command: nix-env -i beets
+
+  - tool: pacman
+    command: pacman -S beets
+
+  - tool: pip
+    command: pip install beets
+
+  - tool: portage
+    command: emerge beets
+
+  - tool: pkg_add
+    command: pkg_add beets
+
+has_free_trail: false
+license_terms: ""
+
+developer:
+  name: Adrian Sampson
+  website: https://www.cs.cornell.edu/~asampson/
+  email: adrian.sampson@gmail.com
+
+maintainer:
+  name: Feram GmbH
+  website: https://feram.io
+
+similar: []
+
+communities:
+  - name: twitter
+    url: https://twitter.com/b33ts
+
+  - name: discourse
+    url: https://discourse.beets.io
+
+  - name: beets-users
+    url: http://groups.google.com/group/beets-users
+
+  - name: freenode
+    url: irc://irc.freenode.net/beets
+
+screenshots:
+  - screenshot_import.png
+
+changelog_url: https://github.com/beetbox/beets/releases/
+changelog:
+  - version: "1.4.7"
+    utc: "2018-05-29"
+    url: https://github.com/beetbox/beets/releases/tag/v1.4.7
+    description: |
+      This new release includes lots of new features in the importer
+      and the metadata source backends that it uses.
+      We've changed how the beets importer handles non-audio tracks listed
+      in metadata sources like MusicBrainz.
+
+  - version: "1.4.6"
+    utc: "2017-12-21"
+    url: https://github.com/beetbox/beets/releases/tag/v1.4.6
+    changes: []
+
+  - version: "1.0b1"
+    utc: "2010-06-10"
+    url: https://github.com/beetbox/beets/releases/tag/1.0b1
+    changes: []
