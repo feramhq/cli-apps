@@ -16,7 +16,7 @@ price: 0
 
 accounts: []
 
-command: 'tldr tar               '
+command: 'tldr tar                   '
 
 installation_url: https://tldr.sh/#installation
 installations:
