@@ -1,7 +1,0 @@
-state: draft
-website: https://www.imagemagick.org
-code: https://github.com/ImageMagick/ImageMagick
-issues: https://github.com/ImageMagick/ImageMagick/issues
-license:
-  name: Misc
-  url: https://github.com/ImageMagick/ImageMagick/blob/master/LICENSE

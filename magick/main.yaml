@@ -1,0 +1,90 @@
+state: published
+name: ImageMagick
+slug: magick
+description: Edit images and convert between different formats
+description_long: |
+  Convert between image formats as well as resize an image,
+  blur, crop, despeckle, dither, draw on, flip, join,
+  re-sample, and much more.
+tags: [image, photo, conversion, png, jpeg]
+website: https://www.imagemagick.org
+code: https://github.com/ImageMagick/ImageMagick
+issues: https://github.com/ImageMagick/ImageMagick/issues
+language: c
+license:
+  name: Misc
+  url: https://github.com/ImageMagick/ImageMagick/blob/master/LICENSE
+price: 0
+accounts:
+  - name: litecoin
+    address: LcZLAmym4EMvUPc9koagkccRLYQbsgGwmj
+  - name: paypal
+    address: E4UZGVA6PU7RC
+  - name: check
+    address: |
+      ImageMagick Studio LLC
+      P.O. Box 40
+      Landenberg, PA  19350
+      USA
+
+command: "magick main.png main.jpeg     "
+
+installation_url: https://www.imagemagick.org/script/download.php
+installations:
+  - tool: apt
+    command: sudo apt install imagemagick
+
+  - tool: homebrew
+    command: brew install imagemagick
+
+  - tool: macports
+    command: port install ImageMagick
+
+has_free_trail: false
+license_terms: ""
+
+developer:
+  name: ImageMagick Studio LLC
+  website: https://www.imagemagick.org
+
+maintainer:
+  name: Feram GmbH
+  website: https://feram.io
+
+similar:
+  - name: GraphicsMagick
+    url: http://www.graphicsmagick.org/
+    description: Swiss army knife of image processing
+
+  - name: Sips
+    url: http://www.manpagez.com/man/1/sips/
+    description: Scriptable image processing system
+
+communities:
+  - name: phpBB
+    url: https://imagemagick.org/discourse-server/
+
+screenshots:
+  - screenshot_magick.png
+
+changelog_url: https://www.imagemagick.org/script/changelog.php
+changelog:
+  - version: "7.0.8-12"
+    utc: "2018-09-15"
+    changes:
+      - 'Added support for arithmetic coding to the jpeg encoder:
+        -define jpeg:arithmetic-coding=true.'
+      - Fixed numerous use of uninitialized values, integer overflow,
+        memory exceeded, and timeouts
+
+  - version: "7.0.8-11"
+    utc: "2018-08-28"
+    changes:
+      - Fixed numerous use of uninitialized values, integer overflow,
+        memory exceeded, and timeouts
+      - Add support for "module" security policy
+
+  - version: "7.0.0-0"
+    utc: "2011-08-01"
+    changes: []
+
