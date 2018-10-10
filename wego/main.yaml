@@ -1,3 +1,4 @@
+state: draft
 description: Weather app with ascii art
 links:
   - https://github.com/schachmat/wego

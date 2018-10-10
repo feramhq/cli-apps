@@ -1,3 +1,4 @@
+state: draft
 description: Spell checker, stemmer and morphological analyzer
 tags:
   - spell-checker

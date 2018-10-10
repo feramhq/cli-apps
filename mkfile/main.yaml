@@ -1,3 +1,4 @@
+state: draft
 description: Create one or more zero padded files
 tags:
   - generator

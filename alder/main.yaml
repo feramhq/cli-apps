@@ -1,8 +1,9 @@
+state: draft
 description: Minimal implementation of the UNIX tree command with colors
 intallation:
   all:
-    npm: @aweary/alder
-    yarn: @aweary/alder
+    npm: '@aweary/alder'
+    yarn: '@aweary/alder'
 
 tags:
   - color

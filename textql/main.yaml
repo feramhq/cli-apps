@@ -1,3 +1,4 @@
+state: draft
 description: Execute SQL against structured text like CSV or TSV
 links:
   - https://github.com/dinedal/textql)
