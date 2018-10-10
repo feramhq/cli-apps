@@ -19,6 +19,7 @@
   "homepage": "https://github.com/adius/alterm",
   "dependencies": {
     "commander": "^2.5.0",
-    "express": "^4.10.2"
+    "express": "^4.10.2",
+    "tldr": "git+https://github.com/tldr-pages/tldr.git"
   }
 }

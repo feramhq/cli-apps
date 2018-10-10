@@ -1,9 +1,9 @@
 links:
-  - https://github.com/firede/msee
+  - https://github.com/IonicaBizau/mdy
 
 installations:
-  - npm install --global msee
-  - yarn global add msee
+  - npm install --global mdy
+  - yarn global add mdy
 
 tags:
   - markdown
@@ -17,4 +17,4 @@ alternatives:
   - mdv
   - nd
   - terminal_markdown_viewer
-  - mdy
+  - msee
