@@ -1,8 +1,99 @@
+state: published
+name: Colordiff
+slug: Colordiff
+description: |
+  Wrapper for 'diff' producing the same output
+  but with pretty syntax highlighting
+description_long: |
+  The Perl script colordiff is a wrapper for 'diff'
+  and produces the same output but with pretty 'syntax' highlighting.
+  Color schemes can be customized.
 tags:
   - diff
   - color
+website: https://www.colordiff.org/
+code: https://github.com/daveewart/colordiff
+issues: https://github.com/daveewart/colordiff/issues
+language: perl
 
-alternatives:
-  - diff
-  - diff3
-  - icdiff
+license:
+  name: GPL-2.0
+  url: https://github.com/daveewart/colordiff/blob/current/COPYING
+
+price: 0
+
+accounts: []
+
+command: 'colordiff main_old.c main_new.c'
+
+installation_url: https://www.colordiff.org
+installations:
+  - tool: apt
+    command: sudo apt install colordiff
+
+  - tool: homebrew
+    command: brew install colordiff
+
+has_free_trail: false
+license_terms: ""
+
+developer:
+  name: Dave Ewart
+  website: https://www.sungate.co.uk/
+  email: davee@sungate.co.uk
+
+maintainer:
+  name: Feram GmbH
+  website: https://feram.io
+
+similar:
+  - name: diff
+    url: https://www.gnu.org/software/diffutils/
+    description: Compare files and directories
+
+  - name: diff3
+    url: https://www.gnu.org/software/diffutils/
+    description: Compare three files line by line
+
+  - name: icdiff
+    url: https://github.com/jeffkaufman/icdiff
+    description: Show differences between files in a two column view
+
+communities:
+  - name: twitter
+    url: https://twitter.com/colordiff
+
+  - name: colordiff-announce
+    url: http://lists.sourceforge.net/lists/listinfo/colordiff-announce
+
+  - name: colordiff-misc
+    url: http://lists.sourceforge.net/lists/listinfo/colordiff-misc
+
+screenshots:
+  - screenshot_mutt.jpg
+  - screenshot_diff.jpg
+  - screenshot_alias.jpg
+
+changelog_url: https://www.colordiff.org/changes.html
+changelog:
+  - version: "1.0.18"
+    utc: "2017-06-02"
+    changes:
+      - Fix regression which broke piping to less.
+
+  - version: "1.0.17"
+    utc: "2017-05-30"
+    changes:
+      - Ensure --color=no is honoured where appropriate
+      - add --color-term-output-only plus minor fixes
+
+  - version: "1.0.1"
+    utc: "2003-01-01"
+    changes:
+      - Addition of support for 'context' diffs
+      - fixed 'colour over-run' problem
+        when shell prompt has no colours defined
+
+  - version: "1.0.0"
+    utc: "2002-01-01"
+    changes: []

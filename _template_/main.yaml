@@ -6,8 +6,8 @@ description_long: ""  # Markdown
 tags: []  # [Text]
 website: ""  # URL
 code: ""  # URL
-language: ""  # Implementation programming language
 issues: ""  # URL to issue tracker
+language: ""  # Implementation programming language
 
 license:
   name: "" # Text
