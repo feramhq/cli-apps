@@ -6,6 +6,8 @@ description_long: ""  # Markdown
 tags: []  # [Text]
 website: ""  # URL
 code: ""  # URL
+language: ""  # Implementation programming language
+issues: ""  # URL to issue tracker
 
 license:
   name: "" # Text
@@ -19,7 +21,7 @@ accounts: # Sorted alphabetically
   - name: paypal
     address: ""  # Email address of PayPal account
 
-command: 'example cli command          '
+command: "example cli command          "
 
 installation_url: ""  # URL to datailed installation instructions
 installations:  # Sorted alphabetically
@@ -44,6 +46,10 @@ similar:
   - name: ""  # Text
     slug: ""  # Text
     description: ""  # Text
+
+communities:  # Communities like IRC, Gitter, …
+  - name: ""
+    url: ""
 
 screenshots:
   - screenshot-todo-1.png

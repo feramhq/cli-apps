@@ -1,7 +1,199 @@
+state: published
+name: Ack
+slug: ack
 description: A search tool like grep, optimized for programmers
-tags:
-  - search
+description_long: |
+  Designed for programmers with large heterogeneous trees of source code,
+  ack is written purely in portable Perl 5
+  and takes advantage of the power of Perl's regular expressions.
+tags: [search]
+website: https://beyondgrep.com/
+code: https://github.com/beyondgrep/ack2
+language: perl
+issues: https://github.com/beyondgrep/ack2/issues
 
-alternatives:
-  - grep
-  - ag
+license:
+  name: Artistic-2.0
+  url: https://github.com/beyondgrep/ack2/blob/dev/LICENSE.md
+
+price: 0
+
+accounts: []
+
+command: 'ack --html pattern          '
+
+installation_url: https://beyondgrep.com/install/
+installations:
+  - tool: apt
+    command: sudo apt install ack-grep
+
+  - tool: chocolatey
+    command: chocolatey install ack
+
+  - tool: cpanm
+    command: cpanm App::Ack
+
+  - tool: homebrew
+    command: brew install ack
+
+  - tool: macports
+    command: port install perl/p5-app-ack
+
+has_free_trail: false
+license_terms: ''
+
+developer:
+  name: Andy Lester
+  website: https://blog.petdance.com/
+  email: andy@petdance.com
+
+maintainer:
+  name: Feram GmbH
+  website: https://feram.io
+
+similar:
+  - name: grep
+    url: https://www.gnu.org/software/grep/
+    description: Search input files for lines containing a pattern
+
+  - name: ag
+    slug: ag
+    description: Like ack, but better
+
+  - name: cgrep
+    url: http://awgn.github.io/cgrep/
+    description: Suitable for searching large code repositories.
+
+  - name: grab
+    url: https://github.com/stealth/grab
+    description: Faster grep alternative using multiple cores
+
+  - name: glark
+    url: https://github.com/jpace/glark
+    description: Includes feature to AND and OR patterns
+
+  - name: greple
+    url: https://github.com/kaz-utashiro/greple
+    description: Lets you search for multiple keywords at a time.
+
+  - name: grin
+    url: http://pypi.python.org/pypi/grin
+    description: A grep program configured in a different way
+
+  - name: kaki
+    url: https://github.com/FelipeBB/kaki
+    description: Inspired by ack, but built on top of nodejs
+
+  - name: nak
+    url: https://github.com/gjtorikian/nak
+    description: An implementation of ack, written in Node.js
+
+  - name: paragrep
+    url: http://software.clapper.org/paragrep/
+    description: Text search tool that operates at the paragraph level
+
+  - name: pcregrep
+    url: http://www.rexegg.com/pcregrep-pcretest.html
+    description: Grep with a PCRE regex engine
+
+  - name: pss
+    url: https://github.com/eliben/pss/
+    description: Ack clone written in Python
+
+  - name: pt
+    url: https://github.com/monochromegane/the_platinum_searcher
+    description: The Platinum Searcher supports multi platforms and encodings
+
+  - name: rak
+    url: https://github.com/danlucraft/rak
+    description: Clone of ack with some visual tweaks
+
+  - name: ripgrep
+    url: https://github.com/BurntSushi/ripgrep
+    description: Faster than everything else
+
+  - name: sift
+    url: https://sift-tool.org
+    description: Faster than ag search tool
+
+  - name: spot
+    url: https://github.com/rauchg/spot
+    description: Tiny search utility adopting some of ack's features
+
+  - name: ucg
+    url: https://gvansickle.github.io/ucg/
+    description: Universal Code Grep is a fast ack-like search tool
+
+  - name: vack
+    url: http://blog.kowalczyk.info/software/vack/
+    description: Visual ack for the Mac
+
+
+communities:
+  - name: Slack
+    url: https://beyondgrep.slack.com/
+
+  - name: ack-users
+    url: https://groups.google.com/d/forum/ack-users
+
+  - name: ack-announce
+    url: https://groups.google.com/d/forum/ack-announce
+
+  - name: ack-dev
+    url: https://groups.google.com/d/forum/ack-dev
+
+screenshots:
+  - screenshot-yaml.png
+
+changelog_url: https://beyondgrep.com/changes.txt
+changelog:
+  - version: '2.24'
+    utc: '2018-06-21'
+    changes:
+      - No changes since 2.23_03.
+
+  - version: '2.23_03'
+    utc: '2018-06-15'
+    changes:
+      - Added --ts for Typescript
+      - ack would stop searching if there was a file called "0" in the current
+        directory where ack was invoked
+
+  - version: '2.23_02'
+    utc: '2018-01-06'
+    changes:
+      - t/ack-n.t was not calling lists_match() correctly
+      - Added an optimization to make ack only do a line-by-line search of a
+        file if there's a match somewhere in the file. This gives ack a 20-30%
+        in timings of common cases.
+
+  - version: '2.22'
+    utc: '2017-12-22'
+    changes:
+      - No changes since 2.21_01
+
+  - version: '2.00'
+    utc: '2013-04-17'
+    changes:
+      - By default searches all text files,
+        as identified by Perl's `-T` operator
+      - We will no longer have a `-a` switch.
+      - Improved flexibility in defining filetype selectors
+      - name equality ($filename eq 'Makefile')
+      - glob-style matching (`*.pl` identifies a Perl file)
+      - regex-style matching (`/\.pl$/i` identifies a Perl file)
+      - shebang-line matching (shebang line matching `/usr/bin/perl/`
+        identifies a Perl file)
+      - support for multiple ackrc files
+      - global ackrc (/etc/ackrc)
+      - https://github.com/petdance/ack/issues/#issue/79
+      - user-specific ackrc (~/.ackrc)
+      - per-project ackrc files (~/myproject/.ackrc)
+      - you can use --dump to figure which options are set where
+      - all inclusion/exclusion rules will be in the ackrc files
+      - ack 2.0 has a set of definitions for filetypes, directories to
+        include or exclude, etc, *but* these are only included so you don't
+        need to ship an ackrc file to a new machine.  You may tell ack to
+        disregard these defaults if you like.
+      - In addition to the classic `--thpppt` option to draw Bill the
+        Cat, `ack --bar` will draw (of course) Admiral Ackbar.
