@@ -1,0 +1,103 @@
+state: published
+name: OpenSSL
+slug: openssl
+description: TLS/SSL and crypto library
+description_long: |
+  The OpenSSL Project is a collaborative effort to develop a robust,
+  commercial-grade, fully featured, and Open Source toolkit implementing the
+  Transport Layer Security (TLS) protocols (including SSLv3) as well as a
+  full-strength general purpose cryptographic library.
+
+  OpenSSL is descended from the SSLeay library developed by Eric A. Young
+  and Tim J. Hudson.  The OpenSSL toolkit is licensed under a dual-license (the
+  OpenSSL license plus the SSLeay license), which means that you are free to
+  get and use it for commercial and non-commercial purposes as long as you
+  fulfill the conditions of both licenses.
+tags: [tls, ssl, cryptography]
+website: https://www.openssl.org/
+code: https://github.com/openssl/openssl
+issues: https://github.com/openssl/openssl/issues
+language: c
+
+license:
+  name: OpenSSL-License
+  url: https://www.openssl.org/source/license.html
+
+price: 0
+
+accounts: []
+
+command: "openssl genrsa -out main.key 2048"
+
+installation_url: https://www.openssl.org/source/
+installations:
+  - tool: apt
+    command: sudo apt install openssl
+
+  - tool: homebrew
+    command: brew install openssl
+
+has_free_trail: false
+license_terms: ""
+
+developer:
+  name: OpenSSL Software Foundation
+  website: https://www.openssl.org
+
+maintainer:
+  name: Feram GmbH
+  website: https://feram.io
+
+similar: []
+
+communities:
+  - name: openssl-announce
+    url: https://mta.openssl.org/mailman/listinfo/openssl-announce
+
+  - name: openssl-project
+    url: https://mta.openssl.org/mailman/listinfo/openssl-project
+
+  - name: openssl-commits
+    url: https://mta.openssl.org/mailman/listinfo/openssl-commits
+
+  - name: openssl-dev
+    url: https://mta.openssl.org/mailman/listinfo/openssl-dev
+
+  - name: openssl-users
+    url: https://mta.openssl.org/mailman/listinfo/openssl-users
+
+screenshots:
+  - screenshot_genrsa.png
+
+changelog_url: https://www.openssl.org/source/old/
+changelog:
+  - version: '1.1.1x'
+    utc: '2018-02-13'
+    url: https://www.openssl.org/source/old/1.1.1/
+    changes: []
+
+  - version: '1.1.0x'
+    utc: '  2015-12-10'
+    url: https://www.openssl.org/source/old/1.1.0/
+    changes: []
+
+  - version: '1.0.2x'
+    utc: '2014-02-24'
+    url: https://www.openssl.org/source/old/1.0.2/
+    changes: []
+
+  - version: '1.0.1x'
+    utc: '2012-01-03'
+    url: https://www.openssl.org/source/old/1.0.1/
+    changes: []
+
+  - version: '1.0.0x'
+    utc: '2016-01-29'
+    url: https://www.openssl.org/source/old/1.0.0/
+    changes: []
+
+  - version: '0.9.x'
+    utc: '2016-01-29'
+    url: https://www.openssl.org/source/old/0.9.x/
+    changes: []
+
