@@ -1,0 +1,1538 @@
+state: published
+name: SQLite
+slug: sqlite
+description: Embedded SQL database engine
+description_long: |
+  SQLite is a self-contained, high-reliability, embedded, full-featured,
+  public-domain, SQL database engine.
+  SQLite is the most used database engine in the world.
+tags: [database, sql]
+website: https://www.sqlite.org/index.html
+code: https://www.sqlite.org/src/doc/trunk/README.md
+issues: https://www.sqlite.org/src/reportlist
+language: c
+
+license:
+  name: Public-Domain
+  url: https://www.sqlite.org/copyright.html
+
+price: 0
+
+accounts:
+  - name: paypal
+    address: drh@hwaci.com
+
+  - name: check
+    address: |
+      Hipp, Wyrick & Company, Inc
+      6200 Maple Cove Lane
+      Charlotte
+      NC 28269
+      USA
+
+command: "sqlite3 ./test.db 'select * from Friends'"
+
+installation_url: https://www.sqlite.org/download.html
+installations:
+  - tool: apt
+    command: sudo apt install sqlite
+
+  - tool: homebrew
+    command: brew install sqlite
+
+has_free_trail: false
+license_terms: ""
+
+developer:
+  name: Hipp, Wyrick & Company, Inc.
+  website: http://hwaci.com/
+
+maintainer:
+  name: Feram GmbH
+  website: https://feram.io
+
+similar:
+  - name: MySQL
+    url: https://www.mysql.com/
+    description: Open source relational database
+
+communities:
+  - name: sqlite-users
+    url: http://mailinglists.sqlite.org/cgi-bin/mailman/listinfo/sqlite-users
+
+  - name: sqlite-dev
+    url: http://mailinglists.sqlite.org/cgi-bin/mailman/listinfo/sqlite-dev
+
+  - name: sqlite-announce
+    url: http://mailinglists.sqlite.org/cgi-bin/mailman/listinfo/sqlite-announce
+
+screenshots:
+  - screenshot_select.png
+
+changelog_url: https://www.sqlite.org/changes.html
+changelog:
+  - version: '3.25.2'
+    utc: '2018-09-25'
+    url: https://www.sqlite.org/releaselog/3_25_2.html
+    changes: []
+
+  - version: '3.25.1'
+    utc: '2018-09-18'
+    url: https://www.sqlite.org/releaselog/3_25_1.html
+    changes: []
+
+  - version: '3.25.0'
+    utc: '2018-09-15'
+    url: https://www.sqlite.org/releaselog/3_25_0.html
+    changes: []
+
+  - version: '3.24.0'
+    utc: '2018-06-04'
+    url: https://www.sqlite.org/releaselog/3_24_0.html
+    changes: []
+
+  - version: '3.23.1'
+    utc: '2018-04-10'
+    url: https://www.sqlite.org/releaselog/3_23_1.html
+    changes: []
+
+  - version: '3.23.0'
+    utc: '2018-04-02'
+    url: https://www.sqlite.org/releaselog/3_23_0.html
+    changes: []
+
+  - version: '3.22.0'
+    utc: '2018-01-22'
+    url: https://www.sqlite.org/releaselog/3_22_0.html
+    changes: []
+
+  - version: '3.21.0'
+    utc: '2017-10-24'
+    url: https://www.sqlite.org/releaselog/3_21_0.html
+    changes: []
+
+  - version: '3.20.1'
+    utc: '2017-08-24'
+    url: https://www.sqlite.org/releaselog/3_20_1.html
+    changes: []
+
+  - version: '3.20.0'
+    utc: '2017-08-01'
+    url: https://www.sqlite.org/releaselog/3_20_0.html
+    changes: []
+
+  - version: '3.18.2'
+    utc: '2017-06-17'
+    url: https://www.sqlite.org/releaselog/3_18_2.html
+    changes: []
+
+  - version: '3.18.1'
+    utc: '2017-06-16'
+    url: https://www.sqlite.org/releaselog/3_18_1.html
+    changes: []
+
+  - version: '3.19.3'
+    utc: '2017-06-08'
+    url: https://www.sqlite.org/releaselog/3_19_3.html
+    changes: []
+
+  - version: '3.19.2'
+    utc: '2017-05-25'
+    url: https://www.sqlite.org/releaselog/3_19_2.html
+    changes: []
+
+  - version: '3.19.1'
+    utc: '2017-05-24'
+    url: https://www.sqlite.org/releaselog/3_19_1.html
+    changes: []
+
+  - version: '3.19.0'
+    utc: '2017-05-22'
+    url: https://www.sqlite.org/releaselog/3_19_0.html
+    changes: []
+
+  - version: '3.18.0'
+    utc: '2017-03-28'
+    url: https://www.sqlite.org/releaselog/3_18_0.html
+    changes: []
+
+  - version: '3.17.0'
+    utc: '2017-02-13'
+    url: https://www.sqlite.org/releaselog/3_17_0.html
+    changes: []
+
+  - version: '3.16.2'
+    utc: '2017-01-06'
+    url: https://www.sqlite.org/releaselog/3_16_2.html
+    changes: []
+
+  - version: '3.16.1'
+    utc: '2017-01-03'
+    url: https://www.sqlite.org/releaselog/3_16_1.html
+    changes: []
+
+  - version: '3.16.0'
+    utc: '2017-01-02'
+    url: https://www.sqlite.org/releaselog/3_16_0.html
+    changes: []
+
+  - version: '3.15.2'
+    utc: '2016-11-28'
+    url: https://www.sqlite.org/releaselog/3_15_2.html
+    changes: []
+
+  - version: '3.15.1'
+    utc: '2016-11-04'
+    url: https://www.sqlite.org/releaselog/3_15_1.html
+    changes: []
+
+  - version: '3.15.0'
+    utc: '2016-10-14'
+    url: https://www.sqlite.org/releaselog/3_15_0.html
+    changes: []
+
+  - version: '3.14.2'
+    utc: '2016-09-12'
+    url: https://www.sqlite.org/releaselog/3_14_2.html
+    changes: []
+
+  - version: '3.14.1'
+    utc: '2016-08-11'
+    url: https://www.sqlite.org/releaselog/3_14_1.html
+    changes: []
+
+  - version: '3.14'
+    utc: '2016-08-08'
+    url: https://www.sqlite.org/releaselog/3_14_html
+    changes: []
+
+  - version: '3.13.0'
+    utc: '2016-05-18'
+    url: https://www.sqlite.org/releaselog/3_13_0.html
+    changes: []
+
+  - version: '3.12.2'
+    utc: '2016-04-18'
+    url: https://www.sqlite.org/releaselog/3_12_2.html
+    changes: []
+
+  - version: '3.12.1'
+    utc: '2016-04-08'
+    url: https://www.sqlite.org/releaselog/3_12_1.html
+    changes: []
+
+  - version: '3.9.3'
+    utc: '2016-03-31'
+    url: https://www.sqlite.org/releaselog/3_9_3.html
+    changes: []
+
+  - version: '3.12.0'
+    utc: '2016-03-29'
+    url: https://www.sqlite.org/releaselog/3_12_0.html
+    changes: []
+
+  - version: '3.11.1'
+    utc: '2016-03-03'
+    url: https://www.sqlite.org/releaselog/3_11_1.html
+    changes: []
+
+  - version: '3.11.0'
+    utc: '2016-02-15'
+    url: https://www.sqlite.org/releaselog/3_11_0.html
+    changes: []
+
+  - version: '3.10.2'
+    utc: '2016-01-20'
+    url: https://www.sqlite.org/releaselog/3_10_2.html
+    changes: []
+
+  - version: '3.10.1'
+    utc: '2016-01-14'
+    url: https://www.sqlite.org/releaselog/3_10_1.html
+    changes: []
+
+  - version: '3.10.0'
+    utc: '2016-01-06'
+    url: https://www.sqlite.org/releaselog/3_10_0.html
+    changes: []
+
+  - version: '3.9.2'
+    utc: '2015-11-02'
+    url: https://www.sqlite.org/releaselog/3_9_2.html
+    changes: []
+
+  - version: '3.9.1'
+    utc: '2015-10-16'
+    url: https://www.sqlite.org/releaselog/3_9_1.html
+    changes: []
+
+  - version: '3.9.0'
+    utc: '2015-10-14'
+    url: https://www.sqlite.org/releaselog/3_9_0.html
+    changes: []
+
+  - version: '3.8.11.1'
+    utc: '2015-07-29'
+    url: https://www.sqlite.org/releaselog/3_8_11.1.html
+    changes: []
+
+  - version: '3.8.11'
+    utc: '2015-07-27'
+    url: https://www.sqlite.org/releaselog/3_8_11.html
+    changes: []
+
+  - version: '3.8.10.2'
+    utc: '2015-05-20'
+    url: https://www.sqlite.org/releaselog/3_8_10.2.html
+    changes: []
+
+  - version: '3.8.10.1'
+    utc: '2015-05-09'
+    url: https://www.sqlite.org/releaselog/3_8_10.1.html
+    changes: []
+
+  - version: '3.8.10'
+    utc: '2015-05-07'
+    url: https://www.sqlite.org/releaselog/3_8_10.html
+    changes: []
+
+  - version: '3.8.9'
+    utc: '2015-04-08'
+    url: https://www.sqlite.org/releaselog/3_8_9.html
+    changes: []
+
+  - version: '3.8.8.3'
+    utc: '2015-02-25'
+    url: https://www.sqlite.org/releaselog/3_8_8.3.html
+    changes: []
+
+  - version: '3.8.8.2'
+    utc: '2015-01-30'
+    url: https://www.sqlite.org/releaselog/3_8_8.2.html
+    changes: []
+
+  - version: '3.8.8.1'
+    utc: '2015-01-20'
+    url: https://www.sqlite.org/releaselog/3_8_8.1.html
+    changes: []
+
+  - version: '3.8.8'
+    utc: '2015-01-16'
+    url: https://www.sqlite.org/releaselog/3_8_8.html
+    changes: []
+
+  - version: '3.8.7.4'
+    utc: '2014-12-09'
+    url: https://www.sqlite.org/releaselog/3_8_7.4.html
+    changes: []
+
+  - version: '3.8.7.3'
+    utc: '2014-12-05'
+    url: https://www.sqlite.org/releaselog/3_8_7.3.html
+    changes: []
+
+  - version: '3.8.7.2'
+    utc: '2014-11-18'
+    url: https://www.sqlite.org/releaselog/3_8_7.2.html
+    changes: []
+
+  - version: '3.8.7.1'
+    utc: '2014-10-29'
+    url: https://www.sqlite.org/releaselog/3_8_7.1.html
+    changes: []
+
+  - version: '3.8.6.1'
+    utc: '2014-10-22'
+    url: https://www.sqlite.org/releaselog/3_8_6.1.html
+    changes: []
+
+  - version: '3.8.7'
+    utc: '2014-10-17'
+    url: https://www.sqlite.org/releaselog/3_8_7.html
+    changes: []
+
+  - version: '3.8.6'
+    utc: '2014-08-15'
+    url: https://www.sqlite.org/releaselog/3_8_6.html
+    changes: []
+
+  - version: '3.8.5'
+    utc: '2014-06-04'
+    url: https://www.sqlite.org/releaselog/3_8_5.html
+    changes: []
+
+  - version: '3.8.4.3'
+    utc: '2014-04-03'
+    url: https://www.sqlite.org/releaselog/3_8_4.3.html
+    changes: []
+
+  - version: '3.8.4.2'
+    utc: '2014-03-26'
+    url: https://www.sqlite.org/releaselog/3_8_4.2.html
+    changes: []
+
+  - version: '3.8.4.1'
+    utc: '2014-03-11'
+    url: https://www.sqlite.org/releaselog/3_8_4.1.html
+    changes: []
+
+  - version: '3.8.4'
+    utc: '2014-03-10'
+    url: https://www.sqlite.org/releaselog/3_8_4.html
+    changes: []
+
+  - version: '3.8.3.1'
+    utc: '2014-02-11'
+    url: https://www.sqlite.org/releaselog/3_8_3.1.html
+    changes: []
+
+  - version: '3.8.3'
+    utc: '2014-02-03'
+    url: https://www.sqlite.org/releaselog/3_8_3.html
+    changes: []
+
+  - version: '3.8.2'
+    utc: '2013-12-06'
+    url: https://www.sqlite.org/releaselog/3_8_2.html
+    changes: []
+
+  - version: '3.8.1'
+    utc: '2013-10-17'
+    url: https://www.sqlite.org/releaselog/3_8_1.html
+    changes: []
+
+  - version: '3.8.0.2'
+    utc: '2013-09-03'
+    url: https://www.sqlite.org/releaselog/3_8_0.2.html
+    changes: []
+
+  - version: '3.8.0.1'
+    utc: '2013-08-29'
+    url: https://www.sqlite.org/releaselog/3_8_0.1.html
+    changes: []
+
+  - version: '3.8.0'
+    utc: '2013-08-26'
+    url: https://www.sqlite.org/releaselog/3_8_0.html
+    changes: []
+
+  - version: '3.7.17'
+    utc: '2013-05-20'
+    url: https://www.sqlite.org/releaselog/3_7_17.html
+    changes: []
+
+  - version: '3.7.16.2'
+    utc: '2013-04-12'
+    url: https://www.sqlite.org/releaselog/3_7_16.2.html
+    changes: []
+
+  - version: '3.7.16.1'
+    utc: '2013-03-29'
+    url: https://www.sqlite.org/releaselog/3_7_16.1.html
+    changes: []
+
+  - version: '3.7.16'
+    utc: '2013-03-18'
+    url: https://www.sqlite.org/releaselog/3_7_16.html
+    changes: []
+
+  - version: '3.7.15.2'
+    utc: '2013-01-09'
+    url: https://www.sqlite.org/releaselog/3_7_15.2.html
+    changes: []
+
+  - version: '3.7.15.1'
+    utc: '2012-12-19'
+    url: https://www.sqlite.org/releaselog/3_7_15.1.html
+    changes: []
+
+  - version: '3.7.15'
+    utc: '2012-12-12'
+    url: https://www.sqlite.org/releaselog/3_7_15.html
+    changes: []
+
+  - version: '3.7.14.1'
+    utc: '2012-10-04'
+    url: https://www.sqlite.org/releaselog/3_7_14.1.html
+    changes: []
+
+  - version: '3.7.14'
+    utc: '2012-09-03'
+    url: https://www.sqlite.org/releaselog/3_7_14.html
+    changes: []
+
+  - version: '3.7.13'
+    utc: '2012-06-11'
+    url: https://www.sqlite.org/releaselog/3_7_13.html
+    changes: []
+
+  - version: '3.7.12.1'
+    utc: '2012-05-22'
+    url: https://www.sqlite.org/releaselog/3_7_12.1.html
+    changes: []
+
+  - version: '3.7.12'
+    utc: '2012-05-14'
+    url: https://www.sqlite.org/releaselog/3_7_12.html
+    changes: []
+
+  - version: '3.7.12'
+    utc: '2012-05-14'
+    url: https://www.sqlite.org/releaselog/3_7_12.html
+    changes: []
+
+  - version: '3.7.12'
+    utc: '2012-05-14'
+    url: https://www.sqlite.org/releaselog/3_7_12.html
+    changes: []
+
+  - version: '3.7.11'
+    utc: '2012-03-20'
+    url: https://www.sqlite.org/releaselog/3_7_11.html
+    changes: []
+
+  - version: '3.7.10'
+    utc: '2012-01-16'
+    url: https://www.sqlite.org/releaselog/3_7_10.html
+    changes: []
+
+  - version: '3.7.9'
+    utc: '2011-11-01'
+    url: https://www.sqlite.org/releaselog/3_7_9.html
+    changes: []
+
+  - version: '3.7.8'
+    utc: '2011-09-19'
+    url: https://www.sqlite.org/releaselog/3_7_8.html
+    changes: []
+
+  - version: '3.7.7.1'
+    utc: '2011-06-28'
+    url: https://www.sqlite.org/releaselog/3_7_7.1.html
+    changes: []
+
+  - version: '3.7.7'
+    utc: '2011-06-23'
+    url: https://www.sqlite.org/releaselog/3_7_7.html
+    changes: []
+
+  - version: '3.7.6.3'
+    utc: '2011-05-19'
+    url: https://www.sqlite.org/releaselog/3_7_6.3.html
+    changes: []
+
+  - version: '3.7.6.2'
+    utc: '2011-04-17'
+    url: https://www.sqlite.org/releaselog/3_7_6.2.html
+    changes: []
+
+  - version: '3.7.6.1'
+    utc: '2011-04-13'
+    url: https://www.sqlite.org/releaselog/3_7_6.1.html
+    changes: []
+
+  - version: '3.7.6'
+    utc: '2011-04-12'
+    url: https://www.sqlite.org/releaselog/3_7_6.html
+    changes: []
+
+  - version: '3.7.5'
+    utc: '2011-02-01'
+    url: https://www.sqlite.org/releaselog/3_7_5.html
+    changes: []
+
+  - version: '3.7.4'
+    utc: '2010-12-07'
+    url: https://www.sqlite.org/releaselog/3_7_4.html
+    changes: []
+
+  - version: '3.7.3'
+    utc: '2010-10-08'
+    url: https://www.sqlite.org/releaselog/3_7_3.html
+    changes: []
+
+  - version: '3.7.2'
+    utc: '2010-08-24'
+    url: https://www.sqlite.org/releaselog/3_7_2.html
+    changes: []
+
+  - version: '3.7.1'
+    utc: '2010-08-23'
+    url: https://www.sqlite.org/releaselog/3_7_1.html
+    changes: []
+
+  - version: '3.7.0.1'
+    utc: '2010-08-04'
+    url: https://www.sqlite.org/releaselog/3_7_0.1.html
+    changes: []
+
+  - version: '3.7.0'
+    utc: '2010-07-21'
+    url: https://www.sqlite.org/releaselog/3_7_0.html
+    changes: []
+
+  - version: '3.6.23.1'
+    utc: '2010-03-26'
+    url: https://www.sqlite.org/releaselog/3_6_23.1.html
+    changes: []
+
+  - version: '3.6.23'
+    utc: '2010-03-09'
+    url: https://www.sqlite.org/releaselog/3_6_23.html
+    changes: []
+
+  - version: '3.6.22'
+    utc: '2010-01-06'
+    url: https://www.sqlite.org/releaselog/3_6_22.html
+    changes: []
+
+  - version: '3.6.21'
+    utc: '2009-12-07'
+    url: https://www.sqlite.org/releaselog/3_6_21.html
+    changes: []
+
+  - version: '3.6.20'
+    utc: '2009-11-04'
+    url: https://www.sqlite.org/releaselog/3_6_20.html
+    changes: []
+
+  - version: '3.6.16.1'
+    utc: '2009-10-30'
+    url: https://www.sqlite.org/releaselog/3_6_16.1.html
+    changes: []
+
+  - version: '3.6.19'
+    utc: '2009-10-14'
+    url: https://www.sqlite.org/releaselog/3_6_19.html
+    changes: []
+
+  - version: '3.6.18'
+    utc: '2009-09-11'
+    url: https://www.sqlite.org/releaselog/3_6_18.html
+    changes: []
+
+  - version: '3.6.17'
+    utc: '2009-08-10'
+    url: https://www.sqlite.org/releaselog/3_6_17.html
+    changes: []
+
+  - version: '3.6.16'
+    utc: '2009-06-27'
+    url: https://www.sqlite.org/releaselog/3_6_16.html
+    changes: []
+
+  - version: '3.6.15'
+    utc: '2009-06-15'
+    url: https://www.sqlite.org/releaselog/3_6_15.html
+    changes: []
+
+  - version: '3.6.14.2'
+    utc: '2009-05-25'
+    url: https://www.sqlite.org/releaselog/3_6_14.2.html
+    changes: []
+
+  - version: '3.6.14.1'
+    utc: '2009-05-19'
+    url: https://www.sqlite.org/releaselog/3_6_14.1.html
+    changes: []
+
+  - version: '3.6.14'
+    utc: '2009-05-07'
+    url: https://www.sqlite.org/releaselog/3_6_14.html
+    changes: []
+
+  - version: '3.6.13'
+    utc: '2009-04-13'
+    url: https://www.sqlite.org/releaselog/3_6_13.html
+    changes: []
+
+  - version: '3.6.12'
+    utc: '2009-03-31'
+    url: https://www.sqlite.org/releaselog/3_6_12.html
+    changes: []
+
+  - version: '3.6.11'
+    utc: '2009-02-18'
+    url: https://www.sqlite.org/releaselog/3_6_11.html
+    changes: []
+
+  - version: '3.6.10'
+    utc: '2009-01-15'
+    url: https://www.sqlite.org/releaselog/3_6_10.html
+    changes: []
+
+  - version: '3.6.9'
+    utc: '2009-01-14'
+    url: https://www.sqlite.org/releaselog/3_6_9.html
+    changes: []
+
+  - version: '3.6.8'
+    utc: '2009-01-12'
+    url: https://www.sqlite.org/releaselog/3_6_8.html
+    changes: []
+
+  - version: '3.6.7'
+    utc: '2008-12-16'
+    url: https://www.sqlite.org/releaselog/3_6_7.html
+    changes: []
+
+  - version: '3.6.6.2'
+    utc: '2008-11-26'
+    url: https://www.sqlite.org/releaselog/3_6_6.2.html
+    changes: []
+
+  - version: '3.6.6.1'
+    utc: '2008-11-22'
+    url: https://www.sqlite.org/releaselog/3_6_6.1.html
+    changes: []
+
+  - version: '3.6.6'
+    utc: '2008-11-19'
+    url: https://www.sqlite.org/releaselog/3_6_6.html
+    changes: []
+
+  - version: '3.6.5'
+    utc: '2008-11-12'
+    url: https://www.sqlite.org/releaselog/3_6_5.html
+    changes: []
+
+  - version: '3.6.4'
+    utc: '2008-10-15'
+    url: https://www.sqlite.org/releaselog/3_6_4.html
+    changes: []
+
+  - version: '3.6.3'
+    utc: '2008-09-22'
+    url: https://www.sqlite.org/releaselog/3_6_3.html
+    changes: []
+
+  - version: '3.6.2'
+    utc: '2008-08-30'
+    url: https://www.sqlite.org/releaselog/3_6_2.html
+    changes: []
+
+  - version: '3.6.1'
+    utc: '2008-08-06'
+    url: https://www.sqlite.org/releaselog/3_6_1.html
+    changes: []
+
+  - version: '3.6.0'
+    utc: '2008-07-16'
+    url: https://www.sqlite.org/releaselog/3_6_0.html
+    changes: []
+
+  - version: '3.5.9'
+    utc: '2008-05-14'
+    url: https://www.sqlite.org/releaselog/3_5_9.html
+    changes: []
+
+  - version: '3.5.8'
+    utc: '2008-04-16'
+    url: https://www.sqlite.org/releaselog/3_5_8.html
+    changes: []
+
+  - version: '3.5.7'
+    utc: '2008-03-17'
+    url: https://www.sqlite.org/releaselog/3_5_7.html
+    changes: []
+
+  - version: '3.5.6'
+    utc: '2008-02-06'
+    url: https://www.sqlite.org/releaselog/3_5_6.html
+    changes: []
+
+  - version: '3.5.5'
+    utc: '2008-01-31'
+    url: https://www.sqlite.org/releaselog/3_5_5.html
+    changes: []
+
+  - version: '3.5.4'
+    utc: '2007-12-14'
+    url: https://www.sqlite.org/releaselog/3_5_4.html
+    changes: []
+
+  - version: '3.5.3'
+    utc: '2007-11-27'
+    url: https://www.sqlite.org/releaselog/3_5_3.html
+    changes: []
+
+  - version: '3.5.2'
+    utc: '2007-11-05'
+    url: https://www.sqlite.org/releaselog/3_5_2.html
+    changes: []
+
+  - version: '3.5.1'
+    utc: '2007-10-04'
+    url: https://www.sqlite.org/releaselog/3_5_1.html
+    changes: []
+
+  - version: '3.5.0'
+    utc: '2007-09-04'
+    url: https://www.sqlite.org/releaselog/3_5_0.html
+    changes: []
+
+  - version: '3.4.2'
+    utc: '2007-08-13'
+    url: https://www.sqlite.org/releaselog/3_4_2.html
+    changes: []
+
+  - version: '3.4.1'
+    utc: '2007-07-20'
+    url: https://www.sqlite.org/releaselog/3_4_1.html
+    changes: []
+
+  - version: '3.4.0'
+    utc: '2007-06-18'
+    url: https://www.sqlite.org/releaselog/3_4_0.html
+    changes: []
+
+  - version: '3.3.17'
+    utc: '2007-04-25'
+    url: https://www.sqlite.org/releaselog/3_3_17.html
+    changes: []
+
+  - version: '3.3.16'
+    utc: '2007-04-18'
+    url: https://www.sqlite.org/releaselog/3_3_16.html
+    changes: []
+
+  - version: '3.3.15'
+    utc: '2007-04-09'
+    url: https://www.sqlite.org/releaselog/3_3_15.html
+    changes: []
+
+  - version: '3.3.14'
+    utc: '2007-04-02'
+    url: https://www.sqlite.org/releaselog/3_3_14.html
+    changes: []
+
+  - version: '3.3.13'
+    utc: '2007-02-13'
+    url: https://www.sqlite.org/releaselog/3_3_13.html
+    changes: []
+
+  - version: '3.3.12'
+    utc: '2007-01-27'
+    url: https://www.sqlite.org/releaselog/3_3_12.html
+    changes: []
+
+  - version: '3.3.11'
+    utc: '2007-01-22'
+    url: https://www.sqlite.org/releaselog/3_3_11.html
+    changes: []
+
+  - version: '3.3.10'
+    utc: '2007-01-10'
+    url: https://www.sqlite.org/releaselog/3_3_10.html
+    changes: []
+
+  - version: '3.3.9'
+    utc: '2007-01-04'
+    url: https://www.sqlite.org/releaselog/3_3_9.html
+    changes: []
+
+  - version: '3.3.8'
+    utc: '2006-10-09'
+    url: https://www.sqlite.org/releaselog/3_3_8.html
+    changes: []
+
+  - version: '3.3.7'
+    utc: '2006-08-12'
+    url: https://www.sqlite.org/releaselog/3_3_7.html
+    changes: []
+
+  - version: '3.3.6'
+    utc: '2006-06-06'
+    url: https://www.sqlite.org/releaselog/3_3_6.html
+    changes: []
+
+  - version: '3.3.5'
+    utc: '2006-04-05'
+    url: https://www.sqlite.org/releaselog/3_3_5.html
+    changes: []
+
+  - version: '3.3.4'
+    utc: '2006-02-11'
+    url: https://www.sqlite.org/releaselog/3_3_4.html
+    changes: []
+
+  - version: '3.3.3'
+    utc: '2006-01-31'
+    url: https://www.sqlite.org/releaselog/3_3_3.html
+    changes: []
+
+  - version: '3.3.2'
+    utc: '2006-01-24'
+    url: https://www.sqlite.org/releaselog/3_3_2.html
+    changes: []
+
+  - version: '3.3.1'
+    utc: '2006-01-16'
+    url: https://www.sqlite.org/releaselog/3_3_1.html
+    changes: []
+
+  - version: '3.3.0'
+    utc: '2006-01-11'
+    url: https://www.sqlite.org/releaselog/3_3_0.html
+    changes: []
+
+  - version: '2.8.17'
+    utc: '2005-12-19'
+    url: https://www.sqlite.org/releaselog/2_8_17.html
+    changes: []
+
+  - version: '3.2.8'
+    utc: '2005-12-19'
+    url: https://www.sqlite.org/releaselog/3_2_8.html
+    changes: []
+
+  - version: '3.2.7'
+    utc: '2005-09-24'
+    url: https://www.sqlite.org/releaselog/3_2_7.html
+    changes: []
+
+  - version: '3.2.6'
+    utc: '2005-09-17'
+    url: https://www.sqlite.org/releaselog/3_2_6.html
+    changes: []
+
+  - version: '3.2.5'
+    utc: '2005-08-27'
+    url: https://www.sqlite.org/releaselog/3_2_5.html
+    changes: []
+
+  - version: '3.2.4'
+    utc: '2005-08-24'
+    url: https://www.sqlite.org/releaselog/3_2_4.html
+    changes: []
+
+  - version: '3.2.3'
+    utc: '2005-08-21'
+    url: https://www.sqlite.org/releaselog/3_2_3.html
+    changes: []
+
+  - version: '3.2.2'
+    utc: '2005-06-12'
+    url: https://www.sqlite.org/releaselog/3_2_2.html
+    changes: []
+
+  - version: '3.2.1'
+    utc: '2005-03-29'
+    url: https://www.sqlite.org/releaselog/3_2_1.html
+    changes: []
+
+  - version: '3.2.0'
+    utc: '2005-03-21'
+    url: https://www.sqlite.org/releaselog/3_2_0.html
+    changes: []
+
+  - version: '3.1.6'
+    utc: '2005-03-17'
+    url: https://www.sqlite.org/releaselog/3_1_6.html
+    changes: []
+
+  - version: '3.1.5'
+    utc: '2005-03-11'
+    url: https://www.sqlite.org/releaselog/3_1_5.html
+    changes: []
+
+  - version: '3.1.4'
+    utc: '2005-03-11'
+    url: https://www.sqlite.org/releaselog/3_1_4.html
+    changes: []
+
+  - version: '3.1.3.1'
+    utc: '2005-02-28'
+    url: https://www.sqlite.org/releaselog/3_1_3.1.html
+    changes: []
+
+  - version: '3.1.3'
+    utc: '2005-02-20'
+    url: https://www.sqlite.org/releaselog/3_1_3.html
+    changes: []
+
+  - version: '3.1.2'
+    utc: '2005-02-15'
+    url: https://www.sqlite.org/releaselog/3_1_2.html
+    changes: []
+
+  - version: '2.8.16'
+    utc: '2005-02-15'
+    url: https://www.sqlite.org/releaselog/2_8_16.html
+    changes: []
+
+  - version: '3.1.1'
+    utc: '2005-02-01'
+    url: https://www.sqlite.org/releaselog/3_1_1.html
+    changes: []
+
+  - version: '3.1.0'
+    utc: '2005-01-21'
+    url: https://www.sqlite.org/releaselog/3_1_0.html
+    changes: []
+
+  - version: '3.0.8'
+    utc: '2004-10-12'
+    url: https://www.sqlite.org/releaselog/3_0_8.html
+    changes: []
+
+  - version: '3.0.7'
+    utc: '2004-09-18'
+    url: https://www.sqlite.org/releaselog/3_0_7.html
+    changes: []
+
+  - version: '3.0.6'
+    utc: '2004-09-02'
+    url: https://www.sqlite.org/releaselog/3_0_6.html
+    changes: []
+
+  - version: '3.0.5'
+    utc: '2004-08-29'
+    url: https://www.sqlite.org/releaselog/3_0_5.html
+    changes: []
+
+  - version: '3.0.4'
+    utc: '2004-08-09'
+    url: https://www.sqlite.org/releaselog/3_0_4.html
+    changes: []
+
+  - version: '3.0.3'
+    utc: '2004-07-22'
+    url: https://www.sqlite.org/releaselog/3_0_3.html
+    changes: []
+
+  - version: '2.8.15'
+    utc: '2004-07-22'
+    url: https://www.sqlite.org/releaselog/2_8_15.html
+    changes: []
+
+  - version: '3.0.2'
+    utc: '2004-06-30'
+    url: https://www.sqlite.org/releaselog/3_0_2.html
+    changes: []
+
+  - version: '3.0.1'
+    utc: '2004-06-22'
+    url: https://www.sqlite.org/releaselog/3_0_1.html
+    changes: []
+
+  - version: '3.0.0'
+    utc: '2004-06-18'
+    url: https://www.sqlite.org/releaselog/3_0_0.html
+    changes: []
+
+  - version: '2.8.14'
+    utc: '2004-06-09'
+    url: https://www.sqlite.org/releaselog/2_8_14.html
+    changes: []
+
+  - version: '2.8.13'
+    utc: '2004-03-08'
+    url: https://www.sqlite.org/releaselog/2_8_13.html
+    changes: []
+
+  - version: '2.8.12'
+    utc: '2004-02-08'
+    url: https://www.sqlite.org/releaselog/2_8_12.html
+    changes: []
+
+  - version: '2.8.11'
+    utc: '2004-01-14'
+    url: https://www.sqlite.org/releaselog/2_8_11.html
+    changes: []
+
+  - version: '2.8.10'
+    utc: '2004-01-14'
+    url: https://www.sqlite.org/releaselog/2_8_10.html
+    changes: []
+
+  - version: '2.8.9'
+    utc: '2004-01-06'
+    url: https://www.sqlite.org/releaselog/2_8_9.html
+    changes: []
+
+  - version: '2.8.8'
+    utc: '2003-12-18'
+    url: https://www.sqlite.org/releaselog/2_8_8.html
+    changes: []
+
+  - version: '2.8.7'
+    utc: '2003-12-04'
+    url: https://www.sqlite.org/releaselog/2_8_7.html
+    changes: []
+
+  - version: '2.8.6'
+    utc: '2003-08-22'
+    url: https://www.sqlite.org/releaselog/2_8_6.html
+    changes: []
+
+  - version: '2.8.5'
+    utc: '2003-07-22'
+    url: https://www.sqlite.org/releaselog/2_8_5.html
+    changes: []
+
+  - version: '2.8.4'
+    utc: '2003-06-29'
+    url: https://www.sqlite.org/releaselog/2_8_4.html
+    changes: []
+
+  - version: '2.8.3'
+    utc: '2003-06-04'
+    url: https://www.sqlite.org/releaselog/2_8_3.html
+    changes: []
+
+  - version: '2.8.2'
+    utc: '2003-05-17'
+    url: https://www.sqlite.org/releaselog/2_8_2.html
+    changes: []
+
+  - version: '2.8.1'
+    utc: '2003-05-17'
+    url: https://www.sqlite.org/releaselog/2_8_1.html
+    changes: []
+
+  - version: '2.8.0'
+    utc: '2003-02-16'
+    url: https://www.sqlite.org/releaselog/2_8_0.html
+    changes: []
+
+  - version: '2.7.6'
+    utc: '2003-01-25'
+    url: https://www.sqlite.org/releaselog/2_7_6.html
+    changes: []
+
+  - version: '2.7.5'
+    utc: '2002-12-28'
+    url: https://www.sqlite.org/releaselog/2_7_5.html
+    changes: []
+
+  - version: '2.7.4'
+    utc: '2002-12-17'
+    url: https://www.sqlite.org/releaselog/2_7_4.html
+    changes: []
+
+  - version: '2.7.3'
+    utc: '2002-10-31'
+    url: https://www.sqlite.org/releaselog/2_7_3.html
+    changes: []
+
+  - version: '2.7.2'
+    utc: '2002-09-25'
+    url: https://www.sqlite.org/releaselog/2_7_2.html
+    changes: []
+
+  - version: '2.7.1'
+    utc: '2002-08-31'
+    url: https://www.sqlite.org/releaselog/2_7_1.html
+    changes: []
+
+  - version: '2.7.0'
+    utc: '2002-08-25'
+    url: https://www.sqlite.org/releaselog/2_7_0.html
+    changes: []
+
+  - version: '2.6.3'
+    utc: '2002-08-13'
+    url: https://www.sqlite.org/releaselog/2_6_3.html
+    changes: []
+
+  - version: '2.6.2'
+    utc: '2002-07-31'
+    url: https://www.sqlite.org/releaselog/2_6_2.html
+    changes: []
+
+  - version: '2.6.1'
+    utc: '2002-07-19'
+    url: https://www.sqlite.org/releaselog/2_6_1.html
+    changes: []
+
+  - version: '2.6.0'
+    utc: '2002-07-18'
+    url: https://www.sqlite.org/releaselog/2_6_0.html
+    changes: []
+
+  - version: '2.5.6'
+    utc: '2002-07-07'
+    url: https://www.sqlite.org/releaselog/2_5_6.html
+    changes: []
+
+  - version: '2.5.5'
+    utc: '2002-07-06'
+    url: https://www.sqlite.org/releaselog/2_5_5.html
+    changes: []
+
+  - version: '2.5.4'
+    utc: '2002-07-01'
+    url: https://www.sqlite.org/releaselog/2_5_4.html
+    changes: []
+
+  - version: '2.5.3'
+    utc: '2002-06-25'
+    url: https://www.sqlite.org/releaselog/2_5_3.html
+    changes: []
+
+  - version: '2.5.2'
+    utc: '2002-06-25'
+    url: https://www.sqlite.org/releaselog/2_5_2.html
+    changes: []
+
+  - version: '2.5.1'
+    utc: '2002-06-19'
+    url: https://www.sqlite.org/releaselog/2_5_1.html
+    changes: []
+
+  - version: '2.5.0'
+    utc: '2002-06-17'
+    url: https://www.sqlite.org/releaselog/2_5_0.html
+    changes: []
+
+  - version: '2.4.12'
+    utc: '2002-05-10'
+    url: https://www.sqlite.org/releaselog/2_4_12.html
+    changes: []
+
+  - version: '2.4.11'
+    utc: '2002-05-08'
+    url: https://www.sqlite.org/releaselog/2_4_11.html
+    changes: []
+
+  - version: '2.4.10'
+    utc: '2002-05-03'
+    url: https://www.sqlite.org/releaselog/2_4_10.html
+    changes: []
+
+  - version: '2.4.9'
+    utc: '2002-04-22'
+    url: https://www.sqlite.org/releaselog/2_4_9.html
+    changes: []
+
+  - version: '2.4.8'
+    utc: '2002-04-20'
+    url: https://www.sqlite.org/releaselog/2_4_8.html
+    changes: []
+
+  - version: '2.4.7'
+    utc: '2002-04-12'
+    url: https://www.sqlite.org/releaselog/2_4_7.html
+    changes: []
+
+  - version: '2.4.6'
+    utc: '2002-04-02'
+    url: https://www.sqlite.org/releaselog/2_4_6.html
+    changes: []
+
+  - version: '2.4.5'
+    utc: '2002-04-02'
+    url: https://www.sqlite.org/releaselog/2_4_5.html
+    changes: []
+
+  - version: '2.4.4'
+    utc: '2002-03-30'
+    url: https://www.sqlite.org/releaselog/2_4_4.html
+    changes: []
+
+  - version: '2.4.3'
+    utc: '2002-03-23'
+    url: https://www.sqlite.org/releaselog/2_4_3.html
+    changes: []
+
+  - version: '2.4.2'
+    utc: '2002-03-20'
+    url: https://www.sqlite.org/releaselog/2_4_2.html
+    changes: []
+
+  - version: '2.4.1'
+    utc: '2002-03-13'
+    url: https://www.sqlite.org/releaselog/2_4_1.html
+    changes: []
+
+  - version: '2.4.1'
+    utc: '2002-03-13'
+    url: https://www.sqlite.org/releaselog/2_4_1.html
+    changes: []
+
+  - version: '2.4.0'
+    utc: '2002-03-11'
+    url: https://www.sqlite.org/releaselog/2_4_0.html
+    changes: []
+
+  - version: '2.3.3'
+    utc: '2002-02-19'
+    url: https://www.sqlite.org/releaselog/2_3_3.html
+    changes: []
+
+  - version: '2.3.2'
+    utc: '2002-02-14'
+    url: https://www.sqlite.org/releaselog/2_3_2.html
+    changes: []
+
+  - version: '2.3.1'
+    utc: '2002-02-13'
+    url: https://www.sqlite.org/releaselog/2_3_1.html
+    changes: []
+
+  - version: '2.3.0'
+    utc: '2002-02-03'
+    url: https://www.sqlite.org/releaselog/2_3_0.html
+    changes: []
+
+  - version: '2.2.5'
+    utc: '2002-01-28'
+    url: https://www.sqlite.org/releaselog/2_2_5.html
+    changes: []
+
+  - version: '2.2.4'
+    utc: '2002-01-22'
+    url: https://www.sqlite.org/releaselog/2_2_4.html
+    changes: []
+
+  - version: '2.2.3'
+    utc: '2002-01-16'
+    url: https://www.sqlite.org/releaselog/2_2_3.html
+    changes: []
+
+  - version: '2.2.2'
+    utc: '2002-01-14'
+    url: https://www.sqlite.org/releaselog/2_2_2.html
+    changes: []
+
+  - version: '2.2.1'
+    utc: '2002-01-09'
+    url: https://www.sqlite.org/releaselog/2_2_1.html
+    changes: []
+
+  - version: '2.2.0'
+    utc: '2001-12-22'
+    url: https://www.sqlite.org/releaselog/2_2_0.html
+    changes: []
+
+  - version: '2.1.7'
+    utc: '2001-12-15'
+    url: https://www.sqlite.org/releaselog/2_1_7.html
+    changes: []
+
+  - version: '2.1.6'
+    utc: '2001-12-14'
+    url: https://www.sqlite.org/releaselog/2_1_6.html
+    changes: []
+
+  - version: '2.1.5'
+    utc: '2001-12-06'
+    url: https://www.sqlite.org/releaselog/2_1_5.html
+    changes: []
+
+  - version: '2.1.4'
+    utc: '2001-12-05'
+    url: https://www.sqlite.org/releaselog/2_1_4.html
+    changes: []
+
+  - version: '2.1.3'
+    utc: '2001-11-24'
+    url: https://www.sqlite.org/releaselog/2_1_3.html
+    changes: []
+
+  - version: '2.1.2'
+    utc: '2001-11-23'
+    url: https://www.sqlite.org/releaselog/2_1_2.html
+    changes: []
+
+  - version: '2.1.1'
+    utc: '2001-11-13'
+    url: https://www.sqlite.org/releaselog/2_1_1.html
+    changes: []
+
+  - version: '2.1.0'
+    utc: '2001-11-12'
+    url: https://www.sqlite.org/releaselog/2_1_0.html
+    changes: []
+
+  - version: '2.0.8'
+    utc: '2001-11-04'
+    url: https://www.sqlite.org/releaselog/2_0_8.html
+    changes: []
+
+  - version: '2.0.7'
+    utc: '2001-10-22'
+    url: https://www.sqlite.org/releaselog/2_0_7.html
+    changes: []
+
+  - version: '2.0.6'
+    utc: '2001-10-19'
+    url: https://www.sqlite.org/releaselog/2_0_6.html
+    changes: []
+
+  - version: '2.0.5'
+    utc: '2001-10-15'
+    url: https://www.sqlite.org/releaselog/2_0_5.html
+    changes: []
+
+  - version: '2.0.4'
+    utc: '2001-10-13'
+    url: https://www.sqlite.org/releaselog/2_0_4.html
+    changes: []
+
+  - version: '2.0.3'
+    utc: '2001-10-13'
+    url: https://www.sqlite.org/releaselog/2_0_3.html
+    changes: []
+
+  - version: '2.0.2'
+    utc: '2001-10-09'
+    url: https://www.sqlite.org/releaselog/2_0_2.html
+    changes: []
+
+  - version: '2.0.1'
+    utc: '2001-10-02'
+    url: https://www.sqlite.org/releaselog/2_0_1.html
+    changes: []
+
+  - version: '2.0.0'
+    utc: '2001-09-28'
+    url: https://www.sqlite.org/releaselog/2_0_0.html
+    changes: []
+
+  - version: '1.0.32'
+    utc: '2001-07-23'
+    url: https://www.sqlite.org/releaselog/1_0_32.html
+    changes: []
+
+  - version: '1.0.31'
+    utc: '2001-04-15'
+    url: https://www.sqlite.org/releaselog/1_0_31.html
+    changes: []
+
+  - version: '1.0.30'
+    utc: '2001-04-06'
+    url: https://www.sqlite.org/releaselog/1_0_30.html
+    changes: []
+
+  - version: '1.0.29'
+    utc: '2001-04-05'
+    url: https://www.sqlite.org/releaselog/1_0_29.html
+    changes: []
+
+  - version: '1.0.28'
+    utc: '2001-04-04'
+    url: https://www.sqlite.org/releaselog/1_0_28.html
+    changes: []
+
+  - version: '1.0.27'
+    utc: '2001-03-20'
+    url: https://www.sqlite.org/releaselog/1_0_27.html
+    changes: []
+
+  - version: '1.0.26'
+    utc: '2001-03-20'
+    url: https://www.sqlite.org/releaselog/1_0_26.html
+    changes: []
+
+  - version: '1.0.25'
+    utc: '2001-03-15'
+    url: https://www.sqlite.org/releaselog/1_0_25.html
+    changes: []
+
+  - version: '1.0.24'
+    utc: '2001-03-14'
+    url: https://www.sqlite.org/releaselog/1_0_24.html
+    changes: []
+
+  - version: '1.0.23'
+    utc: '2001-02-20'
+    url: https://www.sqlite.org/releaselog/1_0_23.html
+    changes: []
+
+  - version: '1.0.22'
+    utc: '2001-02-19'
+    url: https://www.sqlite.org/releaselog/1_0_22.html
+    changes: []
+
+  - version: '1.0.21'
+    utc: '2001-02-19'
+    url: https://www.sqlite.org/releaselog/1_0_21.html
+    changes: []
+
+  - version: '1.0.20'
+    utc: '2001-02-11'
+    url: https://www.sqlite.org/releaselog/1_0_20.html
+    changes: []
+
+  - version: '1.0.19'
+    utc: '2001-02-06'
+    url: https://www.sqlite.org/releaselog/1_0_19.html
+    changes: []
+
+  - version: '1.0.18'
+    utc: '2001-01-04'
+    url: https://www.sqlite.org/releaselog/1_0_18.html
+    changes: []
+
+  - version: '1.0.17'
+    utc: '2000-12-10'
+    url: https://www.sqlite.org/releaselog/1_0_17.html
+    changes: []
+
+  - version: '1.0.16'
+    utc: '2000-11-28'
+    url: https://www.sqlite.org/releaselog/1_0_16.html
+    changes: []
+
+  - version: '1.0.15'
+    utc: '2000-10-23'
+    url: https://www.sqlite.org/releaselog/1_0_15.html
+    changes: []
+
+  - version: '1.0.14'
+    utc: '2000-10-19'
+    url: https://www.sqlite.org/releaselog/1_0_14.html
+    changes: []
+
+  - version: '1.0.13'
+    utc: '2000-10-19'
+    url: https://www.sqlite.org/releaselog/1_0_13.html
+    changes: []
+
+  - version: '1.0.12'
+    utc: '2000-10-17'
+    url: https://www.sqlite.org/releaselog/1_0_12.html
+    changes: []
+
+  - version: '1.0.10'
+    utc: '2000-10-11'
+    url: https://www.sqlite.org/releaselog/1_0_10.html
+    changes: []
+
+  - version: '1.0.9'
+    utc: '2000-10-09'
+    url: https://www.sqlite.org/releaselog/1_0_9.html
+    changes: []
+
+  - version: '1.0.8'
+    utc: '2000-09-30'
+    url: https://www.sqlite.org/releaselog/1_0_8.html
+    changes: []
+
+  - version: '1.0.5'
+    utc: '2000-09-14'
+    url: https://www.sqlite.org/releaselog/1_0_5.html
+    changes: []
+
+  - version: '1.0.4'
+    utc: '2000-08-28'
+    url: https://www.sqlite.org/releaselog/1_0_4.html
+    changes: []
+
+  - version: '1.0.3'
+    utc: '2000-08-22'
+    url: https://www.sqlite.org/releaselog/1_0_3.html
+    changes: []
+
+  - version: '1.0.1'
+    utc: '2000-08-18'
+    url: https://www.sqlite.org/releaselog/1_0_1.html
+    changes: []
+
+  - version: '1.0'
+    utc: '2000-08-17'
+    url: https://www.sqlite.org/releaselog/1_0_html
+    changes: []
+
