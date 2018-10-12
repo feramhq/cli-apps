@@ -1,0 +1,119 @@
+state: published
+name: Make
+slug: make
+description: Task runner for targets described in a makefile
+description_long: |
+  GNU Make is a tool which controls the generation of executables and
+  other non-source files of a program from the program's source files.
+
+  Make gets its knowledge of how to build your program from a file
+  called the makefile, which lists each of the non-source files and how
+  to compute it from other files.
+  When you write a program, you should
+  write a makefile for it, so that it is possible to use Make to build
+  and install the program.
+
+  Capabilities of Make
+
+  - Make enables the end user to build and install your package
+    without knowing the details of how that is done -- because these
+    details are recorded in the makefile that you supply.
+
+  - Make figures out automatically which files it needs to update,
+    based on which source files have changed.
+    It also automatically
+    determines the proper order for updating files, in case one
+    non-source file depends on another non-source file.
+
+    As a result, if you change a few source files and then run Make,
+    it does not need to recompile all of your program.
+    It updates only
+    those non-source files that depend directly or indirectly on the
+    source files that you changed.
+
+  - Make is not limited to any particular language. For each
+    non-source file in the program, the makefile specifies the shell
+    commands to compute it.
+    These shell commands can run a compiler to
+    produce an object file, the linker to produce an executable, ar to
+    update a library, or TeX or Makeinfo to format documentation.
+
+  - Make is not limited to building a package.
+    You can also use Make
+    to control installing or deinstalling a package, generate tags tables
+    for it, or anything else you want to do often enough to make it worth
+    while writing down how to do it.
+
+tags: [build, target, task, runner]
+website: https://www.gnu.org/software/make/
+code: http://savannah.gnu.org/projects/make/
+issues: http://savannah.gnu.org/bugs/?group=make
+language: c
+
+license:
+  name: GPL-3.0-or-later
+  url: http://git.savannah.gnu.org/cgit/make.git/tree/COPYING
+
+price: 0
+
+accounts: []
+
+command: "make --always-make target     "
+
+installation_url: https://www.gnu.org/software/make/#download
+installations:
+  - tool: apt
+    command: sudo apt install make
+
+  - tool: homebrew
+    command: brew install make
+
+has_free_trail: false
+license_terms: ""
+
+developer:
+  name: Free Software Foundation
+  website: https://www.fsf.org
+
+maintainer:
+  name: Feram GmbH
+  website: https://feram.io
+
+similar:
+  - name: Shake
+    url: https://shakebuild.com/
+    description: Reliable, robust and powerful build system
+
+  - name: SCons
+    url: https://scons.org/
+    description: Software construction tool
+
+communities:
+  - name: bug-make
+    url: http://lists.gnu.org/mailman/listinfo/bug-make
+
+  - name: help-make
+    url: http://lists.gnu.org/mailman/listinfo/help-make
+
+  - name: make-w32
+    url: http://lists.gnu.org/mailman/listinfo/make-w32
+
+screenshots:
+  - screenshot_help.png
+
+changelog_url: http://git.savannah.gnu.org/cgit/make.git/refs/
+changelog:
+  - version: '4.2.1'
+    utc: '2016-06-10'
+    url: http://git.savannah.gnu.org/cgit/make.git/tag/?h=4.2.1
+    changes: []
+
+  - version: '4.2'
+    utc: '2016-05-22'
+    url: http://git.savannah.gnu.org/cgit/make.git/tag/?h=4.2
+    changes: []
+
+  - version: 'Release1'
+    utc: '1988-04-23'
+    url: http://git.savannah.gnu.org/cgit/make.git/tag/?h=Release1
+    changes: []
