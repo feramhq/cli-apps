@@ -1,0 +1,247 @@
+state: published
+name: Node
+slug: node
+description: JavaScript runtime built on Chrome's V8 JavaScript engine
+description_long: |
+  As an asynchronous event driven JavaScript runtime, Node is designed to build
+  scalable network applications. In the following "hello world" example, many
+  connections can be handled concurrently. Upon each connection the callback is
+  fired, but if there is no work to be done, Node will sleep.
+
+  ```JavaScript
+  const http = require('http')
+
+  const hostname = '127.0.0.1'
+  const port = 3000
+
+  const server = http.createServer((req, res) => {
+    res.statusCode = 200
+    res.setHeader('Content-Type', 'text/plain')
+    res.end('Hello World\n')
+  });
+
+  server.listen(port, hostname, () => {
+    console.log(`Server running at http://${hostname}:${port}/`)
+  })
+  ```
+
+  This is in contrast to today's more common concurrency model where OS threads
+  are employed. Thread-based networking is relatively inefficient and very
+  difficult to use. Furthermore, users of Node are free from worries of
+  dead-locking the process, since there are no locks. Almost no function in Node
+  directly performs I/O, so the process never blocks. Because nothing blocks,
+  scalable systems are very reasonable to develop in Node.
+
+  If some of this language is unfamiliar, there is a full article on Blocking
+  vs Non-Blocking.
+
+  Node is similar in design to, and influenced by, systems like Ruby's Event
+  Machine or Python's Twisted. Node takes the event model a bit further. It
+  presents an event loop as a runtime construct instead of as a library.
+  In other systems there is always a blocking call to start the event-loop.
+  Typically behavior is defined through callbacks at the beginning of a script
+  and at the end starts a server
+  through a blocking call like EventMachine::run().
+  In Node there is no such start-the-event-loop call.
+  Node simply enters the event loop after executing the input script.
+  Node exits the event loop when there are no more callbacks to perform.
+  This behavior is like browser JavaScript — the event loop is hidden
+  from the user.
+
+  HTTP is a first class citizen in Node, designed with streaming and low
+  latency in mind. This makes Node well suited for the foundation of a web
+  library or framework.
+
+  Just because Node is designed without threads, doesn't mean you cannot take
+  advantage of multiple cores in your environment.
+  Child processes can be spawned by using our child_process.fork() API,
+  and are designed to be easy to communicate with.
+  Built upon that same interface is the cluster module, which
+  allows you to share sockets between processes to enable load balancing over
+  your cores.
+tags: [javascript, server, runtime]  # [Text]
+website: https://nodejs.org/
+code: https://github.com/nodejs/node
+issues: https://github.com/nodejs/node/issues
+language: c++
+
+license:
+  name: MIT+Misc
+  url: https://github.com/nodejs/node/blob/master/LICENSE
+
+price: 0
+
+accounts: []
+
+command: "node -e 'console.log(`test`)'"
+
+installation_url: https://nodejs.org/en/download/
+installations:
+  - tool: apt
+    command: sudo apt install nodejs
+
+  - tool: chocolatey
+    command: choco install nodejs
+
+  - tool: dnf
+    command: dnf install nodejs
+
+  - tool: eopkg
+    command: eopkg install nodejs
+
+  - tool: homebrew
+    command: brew install node
+
+  - tool: macports
+    command: port install nodejs8
+
+  - tool: pacman
+    command: pacman -S nodejs npm
+
+  - tool: pkg
+    command: pkg install nodejs
+
+  - tool: pkg_add
+    command: pkg_add node
+
+  - tool: pkgin
+    command: pkgin install nodejs
+
+  - tool: portage
+    command: emerge nodejs
+
+  - tool: scoop
+    command: scoop install nodejs
+
+  - tool: xbps
+    command: xbps-install -Sy nodejs
+
+  - tool: yum
+    command: yum install nodejs
+
+  - tool: zypper
+    command: zypper install nodejs8
+
+has_free_trail: false
+license_terms: ""
+
+developer:
+  name: Node.js Foundation
+  website: https://foundation.nodejs.org/
+
+maintainer:
+  name: Feram GmbH
+  website: https://feram.io
+
+similar:
+  - name: Deno
+    url: https://github.com/denoland/deno
+    description: A secure TypeScript runtime on V8
+
+communities:
+  - name: twitter
+    url: https://twitter.com/nodejs
+
+screenshots:
+  - screenshot_log.png
+
+changelog_url: https://github.com/nodejs/node/blob/master/CHANGELOG.md
+changelog:
+  - version: '10.12.0'
+    utc: '2018-10-10'
+    url: https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V10.md#10.12.0
+    changes:
+      - assert -
+        The diff output is now a tiny bit improved by sorting object properties
+        when inspecting the values that are compared with each other.
+      - cli -
+        The options parser now normalizes _ to - in all multi-word command-line
+        flags, e.g. --no_warnings has the same effect as --no-warnings.
+        Added bash completion for the node binary. To generate a bash
+        completion script, run node --completion-bash. The output can be saved to a
+        file which can be sourced to enable completion.
+      - crypto -
+        Added support for PEM-level encryption.
+        Added an API asymmetric key pair generation. The new methods
+        crypto.generateKeyPair and crypto.generateKeyPairSync can be used to generate
+        public and private key pairs. The API supports RSA, DSA and EC and a variety of
+        key encodings (both PEM and DER).
+      - fs -
+        Added a recursive option to fs.mkdir and fs.mkdirSync. If this option
+        is set to true, non-existing parent folders will be automatically created.
+      - http2 -
+        Added a 'ping' event to Http2Session that is emitted whenever a non-ack
+        PING is received.
+        Added support for the ORIGIN frame.
+        Updated nghttp2 to 1.34.0. This adds RFC 8441 extended connect protocol
+        support to allow use of WebSockets over HTTP/2.
+      - module -
+        Added module.createRequireFromPath(filename). This new method can be
+        used to create a custom require function that will resolve modules relative to
+        the filename path.
+      - process -
+        Added a 'multipleResolves' process event that is emitted whenever a
+        Promise is attempted to be resolved multiple times, e.g. if the resolve and
+        reject functions are both called in a Promise executor.
+      - url -
+        Added url.fileURLToPath(url) and url.pathToFileURL(path).
+        These methods can be used to correctly convert between file -
+        URLs and absolute paths.
+      - util -
+        Added the sorted option to util.inspect(). If set to true, all
+        properties of an object and Set and Map entries will be sorted in the returned
+        string. If set to a function, it is used as a compare function.
+        The util.instpect.custom symbol is now defined in the global symbol
+        registry as Symbol.for('nodejs.util.inspect.custom').
+        Added support for BigInt numbers in util.format().
+      - V8 API -
+        A number of V8 C++ APIs have been marked as deprecated since they have
+        been removed in the upstream repository. Replacement APIs are added where
+        necessary.
+      - Windows -
+        The Windows msi installer now provides an option to automatically
+        install the tools required to build native modules.
+      - Workers -
+        Debugging support for Workers using the DevTools protocol has been
+        implemented.
+        The public inspector module is now enabled in Workers.
+
+  - version: '10.11.0'
+    utc: '2018-09-20'
+    url: https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V10.md#10.11.0
+    changes:
+      - fs - Fixed fsPromises.readdir withFileTypes.
+      - http2 - Added http2stream.endAfterHeaders property.
+      - util - Added util.types.isBoxedPrimitive(value).
+
+  - version: '10.10.0'
+    utc: '2018-09-06'
+    url: https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V10.md#10.10.0
+    changes:
+      - 'child_process: TypedArray and DataView values are now accepted as
+        input by execFileSync and spawnSync.'
+      - 'coverage: Native V8 code coverage information can now be
+        output to disk by setting the environment variable
+        NODE_V8_COVERAGE to a directory.'
+      - 'deps: The bundled npm was upgraded to version 6.4.1.'
+      - 'fs: The methods fs.read, fs.readSync, fs.write, fs.writeSync,
+        fs.writeFile and fs.writeFileSync now all accept
+        TypedArray and DataView objects.
+        A new boolean option, withFileTypes, can be passed to fs.readdir
+        and fs.readdirSync.
+        If set to true, the methods return an array of directory entries.
+        These are objects that can be used to determine the type of each entry
+        and filter them based on that without calling fs.stat.'
+      - 'http2: The http2 module is no longer experimental.'
+      - 'os: Added two new methods: os.getPriority and os.setPriority,
+        allowing to manipulate the scheduling priority of processes.'
+      - 'process: Added process.allowedNodeEnvironmentFlags.
+        This object can be used to programmatically validate and list flags
+        that are allowed in the NODE_OPTIONS environment variable.'
+      - 'src: Deprecated option variables in public C++ API.
+          Refactored options parsing.'
+      - 'vm: Added vm.compileFunction, a method to create new
+        JavaScript functions from a source body,
+        with options similar to those of the other vm methods.'
+
+
