@@ -22,7 +22,7 @@ price: 0
 accounts:
   - name: paypal
     address: donations@asciinema.org
-command: 'asciinema rec demo.cast'
+command: 'asciinema rec demo.cast       '
 installation_url: https://asciinema.org/docs/installation
 installations:
   - tool: apt
