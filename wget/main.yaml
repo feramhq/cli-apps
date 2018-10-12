@@ -1,0 +1,92 @@
+state: published
+name: Wget
+slug: wget
+description: Tool for retrieving files using HTTP(S) and FTP(S)
+description_long: |
+  GNU Wget is a free software package for retrieving files using
+  HTTP, HTTPS, FTP and FTPS the most widely-used Internet protocols.
+  It is a non-interactive commandline tool,
+  so it may easily be called from scripts, cron jobs,
+  terminals without X-Windows support, etc.
+
+  GNU Wget has many features to make retrieving large files
+  or mirroring entire web or FTP sites easy, including:
+
+  - Can resume aborted downloads, using REST and RANGE
+  - Can use filename wild cards and recursively mirror directories
+  - NLS-based message files for many different languages
+  - Optionally converts absolute links in downloaded documents to relative,
+    so that downloaded documents may link to each other locally
+  - Runs on most UNIX-like operating systems as well as Microsoft Windows
+  - Supports HTTP proxies
+  - Supports HTTP cookies
+  - Supports persistent HTTP connections
+  - Unattended / background operation
+  - Uses local file timestamps to determine whether documents need to be
+    re-downloaded when mirroring
+  - GNU Wget is distributed under the GNU General Public License.
+
+# type: non-interactive
+tags: [download, client, http, https, ftp, ftps]
+website: https://www.gnu.org/software/wget/
+code: https://gitlab.com/gnuwget/wget
+issues: https://gitlab.com/gnuwget/wget/issues
+language: c
+
+license:
+  name: GPL-3.0-or-later
+  url: https://gitlab.com/gnuwget/wget/blob/master/COPYING
+
+price: 0
+
+accounts: []
+
+command: "wget https://cliapp.store     "
+
+installation_url: https://www.gnu.org/software/wget/faq.html#download
+installations:
+  - tool: apt
+    command: sudo apt install wget
+
+  - tool: homebrew
+    command: brew install wget
+
+has_free_trail: false
+license_terms: ""
+
+developer:
+  name: Free Software Foundation
+  website: https://www.fsf.org
+
+maintainer:
+  name: Feram GmbH
+  website: https://feram.io
+
+similar:
+  - name: Curl
+    slug: curl
+    description: Transferring data with URLs
+
+communities:
+  - name: bug-wget
+    url: https://lists.gnu.org/archive/html/bug-wget/
+
+screenshots:
+  - screenshot_https.png
+
+changelog_url: https://gitlab.com/gnuwget/wget/tags
+changelog:
+  - version: '1.19.5'
+    utc: '2018-05-06'
+    url: https://gitlab.com/gnuwget/wget/tags/v1.19.5
+    changes: []
+
+  - version: '1.19.4'
+    utc: '2018-01-21'
+    url: https://gitlab.com/gnuwget/wget/tags/v1.19.4
+    changes: []
+
+  - version: '1.12'
+    utc: '2009-09-22'
+    url: https://gitlab.com/gnuwget/wget/tags/v1.12
+    changes: []
