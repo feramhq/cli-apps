@@ -28,7 +28,7 @@ installations:
     command: sudo apt install ack-grep
 
   - tool: chocolatey
-    command: chocolatey install ack
+    command: choco install ack
 
   - tool: cpanm
     command: cpanm App::Ack

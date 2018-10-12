@@ -30,7 +30,7 @@ installations:
     command: sudo apt install jq
 
   - tool: chocolatey
-    command: chocolatey install jq
+    command: choco install jq
 
   - tool: dnf
     command: sudo dnf install jq
