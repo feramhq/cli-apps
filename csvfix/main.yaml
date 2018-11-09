@@ -1,10 +1,81 @@
 state: draft
+name: CSVfix
+slug: csvfix
 description: Process and edit CSV data
-links:
-  - http://neilb.bitbucket.org/csvfix)
+description_long: |
+  CSVfix is a command-line tool specifically designed to deal with CSV data.
+  With it you can, among other things:
 
+  - Reorder, remove, split and merge fields
+  - Convert case, trim leading & trailing spaces
+  - Search for specific content using regular expressions
+  - Filter out duplicate data or data on exclusion lists
+  - Enrich with data from other sources
+  - Add sequence numbers and file source information
+  - Split large CSV files into smaller files based on field contents
+  - Perform arithmetic calculations on individual fields
+  - Validate CSV data against a collection of validation rules
+  - Convert between CSV and fixed format, XML, SQL and DSV
 tags:
   - csv
   - edit
   - map
   - filter
+website: https://neilb.bitbucket.io/csvfix/
+code: https://bitbucket.org/neilb/csvfix/src/default/
+issues: https://bitbucket.org/neilb/csvfix/issues
+language: c++
+
+license:
+  name: MIT
+  url: https://bitbucket.org/neilb/csvfix/src/default/LICENSE
+
+price: 0
+
+accounts:
+  - name: paypal
+    address: STS5LPN3HPPYA
+
+command: "example cli command          "
+
+installation_url: ""  # URL to datailed installation instructions
+installations:  # Sorted alphabetically
+  - tool: apt
+    command: sudo apt install template
+
+  - tool: homebrew
+    command: brew install template
+
+has_free_trail: false # Boolean
+license_terms: ""  # Full explanation of licensing terms
+
+developer:
+  name: ""  # Text
+  website: ""  # URL
+
+maintainer:
+  name: Feram GmbH
+  website: https://feram.io
+
+similar:
+  - name: ""  # Text
+    slug: ""  # Text
+    description: ""  # Text
+
+communities:
+  - name: google-groups
+    url: https://groups.google.com/forum/#!forum/csvfix
+
+screenshots:
+  - screenshot-todo-1.png
+
+changelog_url: "" # URL
+changelog:
+  - version: 0.0.0
+    utc: 2018-01-01
+    url: ""  # URL to release notes (optional)
+    changes:
+      - Describe the changes in this version
+      - With 1 change per line
+    # Or you can use the Markdown field
+    # description: ""
